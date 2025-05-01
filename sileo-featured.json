@@ -1,0 +1,25 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{380, 180}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://f.top4top.io/p_3208kzjnf0.jpeg",
+      "title": "GhostTechXx Repository",
+      "package": "",
+      "hideShadow": false
+    },
+    {
+      "url": "https://h.top4top.io/p_32080nabk0.jpeg",
+      "title": "GhostTechXx",
+      "package": "",
+      "hideShadow": false
+    },
+    {
+      "url": "https://e.top4top.io/p_321170duk0.png",
+      "title": "FridaCodeManager",
+      "package": "com.sparklechan.swifty",
+      "hideShadow": false
+    }
+  ]
+}
