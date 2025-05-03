@@ -1,16 +1,22 @@
-Package: com.wasnipertool.sa
-Architecture: iphoneos-arm64
-Version: 0.0.1
+Package: WASniperTool
+Version: RootLess.deb
+Architecture: iphoneos-arm
+Maintainer: Unknown
+Description: Package WASniperTool
 Section: Tweaks
-Maintainer: Sniper @DNS_Sys
-Installed-Size: 640
-Depends: mobilesubstrate, oldabi
-Filename: ./debs//WASniperTool_RootLess.deb
-Size: 279244
-MD5sum: 3cc9949ee71c755e0262ad3b97b1548e
-SHA1: 89b4584d47d32181033174e77dd27271ddde1f6d
-SHA256: 0c27b0a813f28e6d08d65973996f24bbe08890675c19bb873e6d66202f40bf89
-SHA512: 90ed77dae6a96ec06fb8a918ad71d49b4f70f8763e4a0ba69a6f90a1cdfbaa7b500769967ed69682adb47369e58b465cd1e6a7f221d27f370d80b630adf11260
-Description: WA Sniper Tool
-Name: ‎WASniperTool
-Author: Sniper @DNS_Sys
+Filename: ./debs/WASniperTool_RootLess.deb
+Size: 1024
+MD5sum: d41d8cd98f00b204e9800998ecf8427e
+SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Package: xyz.cypwn.EchoUI
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: Unknown
+Description: Package xyz.cypwn.EchoUI
+Section: Tweaks
+Filename: ./debs/xyz.cypwn.EchoUI_1.4_iphoneos-arm64.deb
+Size: 1024
+MD5sum: d41d8cd98f00b204e9800998ecf8427e
+SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
