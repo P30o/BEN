@@ -2,9 +2,9 @@ Package: com.ipapplus.instarab
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: ghost
-Description: حزمة com.ipapplus.instarab لنظام iOS
-Section: تعديلات
-Depends: 
+Description: اللغة العربية لإنستغرام
+Section: tweak
+Depends: mobilesubstrate
 Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
 Size: 33368
 MD5sum: 08cdc7ddd08f9b04f0de6b65da037636
