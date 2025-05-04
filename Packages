@@ -1,9 +1,15 @@
 Package: com.ipapplus.instarab
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Unknown
-Description: com.ipapplus.instarab package
+Maintainer: Ghost
+Description: Ggggg
 Section: Tweaks
+Depends: Ghost
 Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
-Size: 0
-SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Size: 33368
+MD5sum: 
+SHA1: 
+SHA256: 
+SHA512: 
+Name: Ghost
+Author: Ghost
