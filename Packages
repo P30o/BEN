@@ -1,8 +1,8 @@
-Package: WASniperTool
-Version: RootLess.deb
+Package: WASniperTool_RootLess
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Unknown
-Description: Package WASniperTool
+Description: Description for WASniperTool_RootLess
 Section: Tweaks
 Filename: ./debs/WASniperTool_RootLess.deb
 Size: 1024
