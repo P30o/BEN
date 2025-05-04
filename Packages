@@ -1,14 +1,16 @@
 Package: com.ipapplus.instarab
 Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: ghost
-Description: اللغة العربية لإنستغرام
-Section: tweak
+Architecture: iphoneos-arm64
+Maintainer: ipapplus <Telegram@ipapplus>
+Installed-Size: 236
 Depends: mobilesubstrate
 Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
 Size: 33368
 MD5sum: 08cdc7ddd08f9b04f0de6b65da037636
 SHA1: c706d1173efbb6f70572aa5aa979b83555ce7266
 SHA256: 73a1389947363855f1f0896a9bd5e90eb00e924c5aa735a4208e712a9bbb2eac
-Name: com.ipapplus.instarab
-Author: Ghost
+Section: arab
+Description: اللغة العربية لإنستغرام
+Author: ipapplus <Twitter@ipapplus>
+Name: Instarab
+
