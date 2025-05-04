@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: Gg
 Description: حزمة com.ipapplus.instarab لنظام iOS
 Section: Tthh
-Depends: 
+Depends: ghaoy
 Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
 Size: 33368
 MD5sum: 08cdc7ddd08f9b04f0de6b65da037636
