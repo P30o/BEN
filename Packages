@@ -1,14 +1,14 @@
-Package: com.ipapplus.instarab
+Package: WASniperTool
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: ghost
-Description: حزمة com.ipapplus.instarab لنظام iOS
-Section: التعديلات
+Description: حزمة WASniperTool لنظام iOS
+Section: تعديلات
 Depends: 
-Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
-Size: 33368
-MD5sum: 08cdc7ddd08f9b04f0de6b65da037636
-SHA1: c706d1173efbb6f70572aa5aa979b83555ce7266
-SHA256: 73a1389947363855f1f0896a9bd5e90eb00e924c5aa735a4208e712a9bbb2eac
-Name: com.ipapplus.instarab
-Author: ghost
+Filename: ./debs/WASniperTool_RootLess.deb
+Size: 279244
+MD5sum: 3cc9949ee71c755e0262ad3b97b1548e
+SHA1: 89b4584d47d32181033174e77dd27271ddde1f6d
+SHA256: 0c27b0a813f28e6d08d65973996f24bbe08890675c19bb873e6d66202f40bf89
+Name: WASniperTool
+Author: Ghost
