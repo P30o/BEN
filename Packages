@@ -1,10 +1,10 @@
 Package: com.ipapplus.instarab
 Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Gg
+Architecture: iphoneos-arm64
+Maintainer: ghost
 Description: حزمة com.ipapplus.instarab لنظام iOS
-Section: Tthh
-Depends: ghaoy
+Section: التعديلات
+Depends: 
 Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
 Size: 33368
 MD5sum: 08cdc7ddd08f9b04f0de6b65da037636
