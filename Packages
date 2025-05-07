@@ -1,16 +1,16 @@
-Package: com.aAli7assan.batterynotch.rootless
-Version: 1.1
+Package: com.ghost.instarab
+Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: Ggg
-Description: com.aAli7assan.batterynotch.rootless package for iOS
+Maintainer: Bbb
+Description: com.ipapplus.instarab package for iOS
 Section: Tweaks
-Depends: Gggg
-Filename: ./debs/com.aAli7assan.batterynotch.rootless_1.1_iphoneos-arm64.deb
-Size: 2116
-MD5sum: a97fec6fa600216cc9a38d90d327c423
-SHA1: 95228cd3c9f6b464ed642a36bd75e3b554cf9686
-SHA256: e751f6ab467606a97146c77166d24a20246f23fb7472daf41182e8f6163e56e1
-Name: com.aAli7assan.batterynotch.rootless
-Author: Ggggg
-Icon: file:///Applications/com.aAli7assan.batterynotch.rootless.app/icon.png
+Depends: Bbbb
+Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
+Size: 33368
+MD5sum: 08cdc7ddd08f9b04f0de6b65da037636
+SHA1: c706d1173efbb6f70572aa5aa979b83555ce7266
+SHA256: 73a1389947363855f1f0896a9bd5e90eb00e924c5aa735a4208e712a9bbb2eac
+Name: com.ipapplus.instarab
+Author: Bbbbb
+Icon: file:///Applications/com.ipapplus.instarab.app/icon.png
 
