@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 
 Installed-Size: 
-Filename: ./debs/./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
+Filename: ./debs/./debs/./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
 Size: 33368
 MD5sum: 08cdc7ddd08f9b04f0de6b65da037636
 SHA1: c706d1173efbb6f70572aa5aa979b83555ce7266
@@ -15,9 +15,9 @@ Package: WASniperTool
 Version: 1.55
 Architecture: iphoneos-arm64
 Maintainer: Ff
-Installed-Size: 272
+Installed-Size: 
 Depends: Fff
-Filename: ./debs/WASniperTool_RootLess.deb
+Filename: ./debs/./debs/WASniperTool_RootLess.deb
 Size: 279244
 MD5sum: 3cc9949ee71c755e0262ad3b97b1548e
 SHA1: 89b4584d47d32181033174e77dd27271ddde1f6d
@@ -25,4 +25,20 @@ SHA256: 0c27b0a813f28e6d08d65973996f24bbe08890675c19bb873e6d66202f40bf89
 Description: حزمة WASniperTool لنظام iOS
 Name: WASniperTool
 Author: Rrr
+
+Package: com.aAli7assan.AxonT55
+Version: 1.43
+Architecture: iphoneos-arm64
+Maintainer: Dff
+Installed-Size: 2
+Depends: Fff
+Filename: ./debs/com.aAli7assan.AxonT_1.4_iphoneos-arm%0A%0A.deb
+Size: 2394
+MD5sum: e23a8e2d6e631fcebc6da1362557aa38
+SHA1: 15dc5bd731e1a54e3fe77181b2f5050fb2441662
+SHA256: cca39e1d9fb059b3e510186672e052ad5313405e3a4c31618dd1f7c4f6edee4e
+Description: حزمة com.aAli7assan.AxonT لنظام iOS
+Name: com.aAli7assan.AxonT
+Author: Fff
+Icon: Ggg
 
