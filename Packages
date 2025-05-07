@@ -1,10 +1,10 @@
 Package: WASniperTool
-Version: 1.6
-Architecture: iphoneos-arm
-Maintainer: Gg
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: Ggg
 Description: WASniperTool package for iOS
 Section: Tweaks
-Depends: Ggg
+Depends: Ggggg
 Filename: ./debs/WASniperTool_RootLess.deb
 Size: 279244
 MD5sum: 3cc9949ee71c755e0262ad3b97b1548e
@@ -12,5 +12,5 @@ SHA1: 89b4584d47d32181033174e77dd27271ddde1f6d
 SHA256: 0c27b0a813f28e6d08d65973996f24bbe08890675c19bb873e6d66202f40bf89
 Name: WASniperTool
 Author: Gggg
-Icon: Gg
+Icon: file:///Applications/WASniperTool.app/icon.png
 
