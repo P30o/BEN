@@ -1,0 +1,16 @@
+Package: com.aAli7assan.batterynotch.rootless
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: 
+Description: com.aAli7assan.batterynotch.rootless package for iOS
+Section: Tweaks
+Depends: 
+Filename: ./debs/com.aAli7assan.batterynotch.rootless_1.1_iphoneos-arm64.deb
+Size: 2116
+MD5sum: a97fec6fa600216cc9a38d90d327c423
+SHA1: 95228cd3c9f6b464ed642a36bd75e3b554cf9686
+SHA256: e751f6ab467606a97146c77166d24a20246f23fb7472daf41182e8f6163e56e1
+Name: com.aAli7assan.batterynotch.rootless
+Author: 
+Icon: file:///Applications/com.aAli7assan.batterynotch.rootless.app/icon.png
+
