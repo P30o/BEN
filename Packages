@@ -1,16 +1,66 @@
+Package: com.aAli7assan.batterynotch.rootless
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: 
+Description: com.aAli7assan.batterynotch.rootless package for iOS
+Section: Tweaks
+Depends: 
+Filename: ./debs/com.aAli7assan.batterynotch.rootless_1.1_iphoneos-arm64.deb
+Size: 
+MD5sum: 
+SHA1: 
+SHA256: 
+Name: com.aAli7assan.batterynotch.rootless
+Author: 
+Icon: file:///Applications/com.aAli7assan.batterynotch.rootless.app/icon.png
+
 Package: com.aAli7assan.AxonT
 Version: 1.4
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: 
 Description: com.aAli7assan.AxonT package for iOS
 Section: Tweaks
 Depends: 
-Filename: ./debs/com.aAli7assan.AxonT_1.4_iphoneos-arm%0A%0A.deb
-Size: 2394
-MD5sum: e23a8e2d6e631fcebc6da1362557aa38
-SHA1: 15dc5bd731e1a54e3fe77181b2f5050fb2441662
-SHA256: cca39e1d9fb059b3e510186672e052ad5313405e3a4c31618dd1f7c4f6edee4e
+Filename: ./debs/com.aAli7assan.AxonT_1.4_iphoneos-arm
+
+.deb
+Size: 
+MD5sum: 
+SHA1: 
+SHA256: 
 Name: com.aAli7assan.AxonT
 Author: 
 Icon: file:///Applications/com.aAli7assan.AxonT.app/icon.png
+
+Package: com.ipapplus.instarab
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 
+Description: com.ipapplus.instarab package for iOS
+Section: Tweaks
+Depends: 
+Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
+Size: 
+MD5sum: 
+SHA1: 
+SHA256: 
+Name: com.ipapplus.instarab
+Author: 
+Icon: file:///Applications/com.ipapplus.instarab.app/icon.png
+
+Package: WASniperTool
+Version: 
+Architecture: iphoneos-arm
+Maintainer: 
+Description: WASniperTool package for iOS
+Section: Tweaks
+Depends: 
+Filename: ./debs/WASniperTool_RootLess.deb
+Size: 
+MD5sum: 
+SHA1: 
+SHA256: 
+Name: WASniperTool
+Author: 
+Icon: file:///Applications/WASniperTool.app/icon.png
 
