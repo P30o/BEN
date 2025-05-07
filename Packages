@@ -1,16 +1,16 @@
-Package: passcodepercent
-Version: 1.1.0
+Package: ncheaderpercent
+Version: 1.0.1
 Architecture: iphoneos-arm64
-Maintainer: Ghost
-Description: passcodepercent package for iOS
-Section: Ggggg
-Depends: Ggg
-Filename: ./debs/passcodepercent_1.0.0.deb
-Size: 4158
-MD5sum: d460ed9238f5b17fab3d13c3124b4b2a
-SHA1: d3bf8b9ede489d378422ff9678ebd2fd25c7ae8a
-SHA256: c3bb04439b5e27e6ecde6a61bc431ceac2e1bbcf8bbbfe10a6f6dc9048d8e2d0
-Name: passcodepercent
-Author: Gggg
-Icon: file:///Applications/passcodepercent.app/icon.png
+Maintainer: Jjj
+Description: ncheaderpercent package for iOS
+Section: Jjjjhjhghosthh
+Depends: Jjjjh
+Filename: ./debs/ncheaderpercent_1.0.1.deb
+Size: 4024
+MD5sum: 8c029ed91c6e7b5e5208e80332568b83
+SHA1: 1b5caf1676db2f5242e0db6cbe01049eb4406204
+SHA256: b2342ade3d1fa9b276f5511f5378ccd76e671fedd718b89d831e839743968b4c
+Name: ncheaderpercent
+Author: Hhhhh
+Icon: file:///Applications/ncheaderpercent.app/icon.png
 
