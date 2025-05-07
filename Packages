@@ -1,16 +1,16 @@
-Package: com.aAli7assan.batterynotch.rootless
-Version: 1.1
+Package: com.aAli7assan.AxonT
+Version: 1.4
 Architecture: iphoneos-arm64
 Maintainer: 
-Description: com.aAli7assan.batterynotch.rootless package for iOS
+Description: com.aAli7assan.AxonT package for iOS
 Section: Tweaks
 Depends: 
-Filename: ./debs/com.aAli7assan.batterynotch.rootless_1.1_iphoneos-arm64.deb
-Size: 2116
-MD5sum: a97fec6fa600216cc9a38d90d327c423
-SHA1: 95228cd3c9f6b464ed642a36bd75e3b554cf9686
-SHA256: e751f6ab467606a97146c77166d24a20246f23fb7472daf41182e8f6163e56e1
-Name: com.aAli7assan.batterynotch.rootless
+Filename: ./debs/com.aAli7assan.AxonT_1.4_iphoneos-arm%0A%0A.deb
+Size: 2394
+MD5sum: e23a8e2d6e631fcebc6da1362557aa38
+SHA1: 15dc5bd731e1a54e3fe77181b2f5050fb2441662
+SHA256: cca39e1d9fb059b3e510186672e052ad5313405e3a4c31618dd1f7c4f6edee4e
+Name: com.aAli7assan.AxonT
 Author: 
-Icon: file:///Applications/com.aAli7assan.batterynotch.rootless.app/icon.png
+Icon: file:///Applications/com.aAli7assan.AxonT.app/icon.png
 
