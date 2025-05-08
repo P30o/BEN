@@ -1,16 +1,16 @@
-Package: com.ipapplus.instarab
-Version: 1.0.6
+Package: com.gpspoofer.sniper
+Version: 2.0
 Architecture: iphoneos-arm64
-Maintainer: Ghost
-Description: تجربة رفع جديد
-Section: تجارب
-Depends: com.repo.ghost
-Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
-Size: 33368
-MD5sum: 08cdc7ddd08f9b04f0de6b65da037636
-SHA1: c706d1173efbb6f70572aa5aa979b83555ce7266
-SHA256: 73a1389947363855f1f0896a9bd5e90eb00e924c5aa735a4208e712a9bbb2eac
-Name: com.ipapplus.instarab
-Author: ipapplus
-Icon: file:///Applications/com.ipapplus.instarab.app/icon.png
+Maintainer: Ali
+Description: com.gpspoofer.sniper package for iOS
+Section: Tweaks
+Filename: ./debs/com.gpspoofer.sniper_2.0_iphoneos-arm64.deb
+Size: 44620
+MD5sum: a336e8f1825bf92fe533a764f48b7b58
+SHA1: fb1080b5c1420881de45055dbd51426feb75dbb1
+SHA256: 602a3231d93e10258502a09e32f5feac64cb1ecf82d96e14e86ccc3cc0e51a69
+SHA512: f2582c77612cd38de8c26a7edbac8c6124e8c8892b56b0b05dc9d2c575d31a4f834e3d975acd624638c1620ac2d11bb33a3a70290426bb4f69e8e9b5f1c37cd6
+Name: com.gpspoofer.sniper
+Author: Ali
+Icon: file:///Applications/com.gpspoofer.sniper.app/icon.png
 
