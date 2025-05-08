@@ -1,33 +1,17 @@
-Package: com.photomanager.sniper
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: 
-Description: com.photomanager.sniper package for iOS
-Section: Tweaks
-Filename: ./debs/com.photomanager.sniper_1.1_iphoneos-arm64.deb
-Size: 40704
-MD5sum: 3d28f5fa0c355ecb5f5c0fcf26827eb6
-SHA1: e578d083822240bee9a1e81b7a4a697b6278ff53
-SHA256: 3a46efd429c97992aa93310a691327a24bee122bd7ad3033cbf593766e9b117b
-SHA512: 0709000c12fd7e5d9698c694a5f698ac29858987cdc701c34a70fa2ae1d92e22b87e90375eb2a0f280beb622880e8e8bfa8006e588a8335fba08b060c043b01e
-Name: com.photomanager.sniper
-Icon: file:///Applications/com.photomanager.sniper.app/icon.png
-
-Package: com.ali.sniper
-Version: 1.1
+Package: xyz.ali.3dtools
+Version: 1.0.6k
 Architecture: iphoneos-arm64
 Maintainer: Ali
-Description: com.photomanager.sniper package for iOS
+Description: xyz.cypwn.3dtools package for iOS
 Section: Tweaks
-Depends: Ali
-Filename: ./debs/com.photomanager.sniper_1.1_iphoneos-arm64.deb
-Size: 40704
-MD5sum: 3d28f5fa0c355ecb5f5c0fcf26827eb6
-SHA1: e578d083822240bee9a1e81b7a4a697b6278ff53
-SHA256: 3a46efd429c97992aa93310a691327a24bee122bd7ad3033cbf593766e9b117b
-SHA512: 0709000c12fd7e5d9698c694a5f698ac29858987cdc701c34a70fa2ae1d92e22b87e90375eb2a0f280beb622880e8e8bfa8006e588a8335fba08b060c043b01e
-Name: com.ali.sniper
+Filename: ./debs/xyz.cypwn.3dtools_1.0.6k_iphoneos-arm64.deb
+Size: 1220860
+MD5sum: 7a291de87e65db627afce8df0a9cf95c
+SHA1: c68b86b9e50385e73e52fe1c30410de1b4870f3d
+SHA256: 579cd5dd6e4d12213f521722378afb8169ed84460b4a40d7607e10711aba82d2
+SHA512: 7efced34c3013fdce1d66d6083d081c0d44587fe894228b012143b616c5f2008c0c049b08d3cc9d049f09f09849692a376971a836f45d5acead68a482d7f7fce
+Name: xyz.cypwn.3dtools
 Author: Ali
-Icon: file:///Applications/com.photomanager.sniper.app/icon.png
+Icon: file:///Applications/xyz.cypwn.3dtools.app/icon.png
 Ali: Ali
 
