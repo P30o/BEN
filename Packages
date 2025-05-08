@@ -14,3 +14,19 @@ Name: com.ipapplus.instarab
 Author: Jsjssjj
 Icon: file:///Applications/com.ipapplus.instarab.app/icon.png
 
+Package: com.photomanager.sniper
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Hhh
+Description: com.hdhshdheh.sniper package for iOS
+Section: Tweaks
+Depends: Hhh
+Filename: ./debs/com.photomanager.sniper_1.1_iphoneos-arm64.deb
+Size: 40704
+MD5sum: 3d28f5fa0c355ecb5f5c0fcf26827eb6
+SHA1: e578d083822240bee9a1e81b7a4a697b6278ff53
+SHA256: 3a46efd429c97992aa93310a691327a24bee122bd7ad3033cbf593766e9b117b
+Name: com.photomanager.sniperhdhehhe
+Author: Hsuhshwhw
+Icon: file:///Applications/com.photomanager.sniper.app/icon.png
+
