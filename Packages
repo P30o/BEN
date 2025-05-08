@@ -14,3 +14,19 @@ Name: com.a.sniperi
 Author: Ali
 Icon: file:///Applications/com.photomanager.sniper.app/icon.png
 
+Package: com.l.instarabajajh
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Alu
+Description: com.ipapplus.instarab package for iOS
+Section: Tweaks
+Depends: Aaij
+Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
+Size: 33368
+MD5sum: 
+SHA1: 
+SHA256: 
+Name: com.h.hhhh
+Author: Hhhh
+Icon: file:///Applications/com.ipapplus.instarab.app/icon.png
+
