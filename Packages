@@ -1,16 +1,16 @@
-Package: com.photomanager.sniper
-Version: 1.1
+Package: com.gpspoofer.sniper
+Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: Ggg
-Description: com.photomanager.sniper package for iOS
+Description: جوست
 Section: Tweaks
-Depends: Fff
-Filename: ./debs/com.photomanager.sniper_1.1_iphoneos-arm64.deb
-Size: 40704
-MD5sum: 3d28f5fa0c355ecb5f5c0fcf26827eb6
-SHA1: e578d083822240bee9a1e81b7a4a697b6278ff53
-SHA256: 3a46efd429c97992aa93310a691327a24bee122bd7ad3033cbf593766e9b117b
-Name: com.photomanager.sniper
-Author: Rrt
-Icon: file:///Applications/com.photomanager.sniper.app/icon.png
+Depends: Ggggg
+Filename: ./debs/com.gpspoofer.sniper_2.0_iphoneos-arm64.deb
+Size: 44620
+MD5sum: a336e8f1825bf92fe533a764f48b7b58
+SHA1: fb1080b5c1420881de45055dbd51426feb75dbb1
+SHA256: 602a3231d93e10258502a09e32f5feac64cb1ecf82d96e14e86ccc3cc0e51a69
+Name: com.gpspoofer.sniper
+Author: Gggg
+Icon: file:///Applications/com.gpspoofer.sniper.app/icon.png
 
