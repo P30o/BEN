@@ -1,16 +1,16 @@
 Package: com.photomanager.sniper
 Version: 1.1
 Architecture: iphoneos-arm64
-Maintainer: Ali
-Description: com.photomanager.ali package for iOS
+Maintainer: Ggg
+Description: com.photomanager.sniper package for iOS
 Section: Tweaks
-Depends: Ali.com
+Depends: Fff
 Filename: ./debs/com.photomanager.sniper_1.1_iphoneos-arm64.deb
 Size: 40704
 MD5sum: 3d28f5fa0c355ecb5f5c0fcf26827eb6
 SHA1: e578d083822240bee9a1e81b7a4a697b6278ff53
 SHA256: 3a46efd429c97992aa93310a691327a24bee122bd7ad3033cbf593766e9b117b
 Name: com.photomanager.sniper
-Author: Ali
+Author: Rrt
 Icon: file:///Applications/com.photomanager.sniper.app/icon.png
 
