@@ -1,16 +1,16 @@
-Package: xyz.cypwn.3dtools
-Version: 1.0.6k
+Package: ncheaderpercent
+Version: 10.8﷼3
 Architecture: iphoneos-arm64
-Maintainer: Ghs
-Description: تحربة تجربة
+Maintainer: Heheh
+Description: ncheaderpercent package for iOS
 Section: Tweaks
-Depends: Ghs
-Filename: ./debs/xyz.cypwn.3dtools_1.0.6k_iphoneos-arm64.deb
-Size: 1220860
-MD5sum: 7a291de87e65db627afce8df0a9cf95c
-SHA1: c68b86b9e50385e73e52fe1c30410de1b4870f3d
-SHA256: 579cd5dd6e4d12213f521722378afb8169ed84460b4a40d7607e10711aba82d2
-Name: xyz.cypwn.3dtools
-Author: Ghs
-Icon: file:///Applications/xyz.cypwn.3dtools.app/icon.png
+Depends: Hehehe
+Filename: ./debs/ncheaderpercent_1.0.1.deb
+Size: 4024
+MD5sum: 8c029ed91c6e7b5e5208e80332568b83
+SHA1: 1b5caf1676db2f5242e0db6cbe01049eb4406204
+SHA256: b2342ade3d1fa9b276f5511f5378ccd76e671fedd718b89d831e839743968b4c
+Name: ncheaderpercent
+Author: Ehehehehehehehe
+Icon: file:///Applications/ncheaderpercent.app/icon.png
 
