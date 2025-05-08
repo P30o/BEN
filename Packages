@@ -1,16 +1,16 @@
-Package: com.ipapplus.instarab
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: هاهاها
-Description: com.ipapplus.instarab package for iOS
-Section: هاهاهاهاهاله
-Depends: هاهاهاه
-Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
-Size: 33368
-MD5sum: 08cdc7ddd08f9b04f0de6b65da037636
-SHA1: c706d1173efbb6f70572aa5aa979b83555ce7266
-SHA256: 73a1389947363855f1f0896a9bd5e90eb00e924c5aa735a4208e712a9bbb2eac
-Name: com.ipapplus.instarab
-Author: هاهاها
-Icon: file:///Applications/com.ipapplus.instarab.app/icon.png
+Package: ncheaderpercent
+Version: ندندند
+Architecture: iphoneos-arm
+Maintainer: نلنلند
+Description: ncheaderpercent package for iOS
+Section: Tweaks
+Depends: مانندنل
+Filename: ./debs/ncheaderpercent_1.0.1.deb
+Size: 4024
+MD5sum: 8c029ed91c6e7b5e5208e80332568b83
+SHA1: 1b5caf1676db2f5242e0db6cbe01049eb4406204
+SHA256: b2342ade3d1fa9b276f5511f5378ccd76e671fedd718b89d831e839743968b4c
+Name: ncheaderpercent
+Author: مانلندنلنل
+Icon: file:///Applications/ncheaderpercent.app/icon.png
 
