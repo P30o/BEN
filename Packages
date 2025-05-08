@@ -1,16 +1,16 @@
-Package: com.sniper.instagram.sa
-Version: 0.0.17
+Package: com.gpspoofer.sniper
+Version: 2.0
 Architecture: iphoneos-arm64
-Maintainer: نيتيتي
-Description: com.sniper.instagram.sa package for iOS
+Maintainer: 
+Description: com.gpspoofer.sniper package for iOS
 Section: Tweaks
-Depends: تبتيت
-Filename: ./debs/com.sniper.instagram.sa_0.0.1_iphoneos-arm64.deb
-Size: 162378
-MD5sum: 86145d46070d1b23666d07d395cf2332
-SHA1: 76fbb8e5966f26aee127316885fdc63833ef4e2a
-SHA256: 37c1be48d6887ebf8e7d1e717b88b2ebbc65029ae79502f5f329bb091f4ddb53
-Name: com.sniper.instagram.sa
-Author: Hsdhh
-Icon: file:///Applications/com.sniper.instagram.sa.app/icon.png
+Depends: 
+Filename: ./debs/com.gpspoofer.sniper_2.0_iphoneos-arm64.deb
+Size: 44620
+MD5sum: a336e8f1825bf92fe533a764f48b7b58
+SHA1: fb1080b5c1420881de45055dbd51426feb75dbb1
+SHA256: 602a3231d93e10258502a09e32f5feac64cb1ecf82d96e14e86ccc3cc0e51a69
+Name: com.gpspoofer.sniper
+Author: 
+Icon: file:///Applications/com.gpspoofer.sniper.app/icon.png
 
