@@ -1,32 +1,16 @@
-Package: com.photomanager.sniper
-Version: 1.1
+Package: com.h.instarabh
+Version: 1.0h
 Architecture: iphoneos-arm64
-Maintainer: Alu
-Description: com.a.sniper package for iOSijj
-Section: Tweaks
-Depends: Ai
-Filename: ./debs/com.photomanager.sniper_1.1_iphoneos-arm64.deb
-Size: 40704
-MD5sum: 
-SHA1: 
-SHA256: 
-Name: com.a.sniperi
-Author: Ali
-Icon: file:///Applications/com.photomanager.sniper.app/icon.png
-
-Package: com.l.instarabajajh
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Alu
+Maintainer: Hedd
 Description: com.ipapplus.instarab package for iOS
 Section: Tweaks
-Depends: Aaij
+Depends: Hhhh
 Filename: ./debs/com.ipapplus.instarab_1.0_iphoneos-arm64.deb
 Size: 33368
 MD5sum: 
 SHA1: 
 SHA256: 
-Name: com.h.hhhh
-Author: Hhhh
+Name: com.ipapplus.instarab
+Author: Hedd
 Icon: file:///Applications/com.ipapplus.instarab.app/icon.png
 
