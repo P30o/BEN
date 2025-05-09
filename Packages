@@ -1,16 +1,16 @@
-Package: IAmLazy.me.lightmann.iamlazy.deb
-Version: 1.0
+Package: iamlazy
+Version: 2.3.0
 Architecture: iphoneos-arm64
-Maintainer: Gg
-Description: IAmLazy.me.lightmann.iamlazy.deb package for iOS
+Maintainer: Ghost
+Description: me.lightmann.iamlazy package for iOS
 Section: Tweaks
-Depends: Ggg
-Filename: ./debs/IAmLazy.me.lightmann.iamlazy.deb
-Size: 187352
-MD5sum: d99f95470aafebbb4dd87ca1f77bbb7b
-SHA1: df7884de105e597f79c1e9d447ee0a6be3f78e78
-SHA256: 5aa7be8af30266598aa864705d9e5770f63bd97efe9f4042edccaf45dc3136e9
-Name: IAmLazy.me.lightmann.iamlazy.deb
-Author: Gggg
-Icon: file:///Applications/IAmLazy.me.lightmann.iamlazy.deb.app/icon.png
+Depends: Ghost
+Filename: ./debs/me.lightmann.iamlazy_2.3.0_iphoneos-arm64.deb
+Size: 176326
+MD5sum: 8aed9886ce054b6860ba72fff40a5fbc
+SHA1: 8b5526be11d3939a2cad9ebbdf0f28163ed38ba7
+SHA256: a7841f550791de8287176808dafc3c80fcd0a09e647ac70ace4c0f7766d706e0
+Name: me.lightmann.iamlazy
+Author: Ghost
+Icon: file:///Applications/me.lightmann.iamlazy.app/icon.png
 
