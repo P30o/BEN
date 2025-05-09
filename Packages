@@ -1,6 +1,6 @@
 Package: IAmLazy.me.lightmann.iamlazy.deb
 Version: 1.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Gg
 Description: IAmLazy.me.lightmann.iamlazy.deb package for iOS
 Section: Tweaks
