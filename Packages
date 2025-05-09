@@ -1,15 +1,15 @@
-Package: com.ichitaso.otadisabler
-Version: 0.6
+Package: com.brend0n.nopastedfrom
+Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: Ali
-Description: com.ichitaso.otadisabler package for iOS
+Description: com.brend0n.nopastedfrom package for iOSj
 Section: Tweaks
-Depends: Ali
-Filename: ./debs/com.ichitaso.otadisabler_0.6_iphoneos-arm64.deb
-Size: 9564
-MD5sum: 8c874f0cb04dd9b88d72ead81ae949d7
-SHA1: f1dfd22a38be19d615bf52cf6778a06a4e606b77
-SHA256: 2a99c9138a3f9235ca0824d38a377bc44748ec8164f6f696f9edcfd8d3d8360b
-Name: Ali
-Author: Ali
-Icon: file:///Applications/com.ichitaso.otadisabler.app/icon.png
+Depends: Alihh
+Filename: ./debs/com.brend0n.nopastedfrom_0.0.1_iphoneos-arm64.deb
+Size: 3002
+MD5sum: ceee5dbec91db31e6faa02349e58cb96
+SHA1: 29494b592ddea0590beefdd5f7fb4f409aaabd33
+SHA256: d11c182e66c1365d88b245daed0fa12145619e7c3de0c4f32f6018dfd6eeb2d1
+Name: Alnz8
+Author: Aligh
+Icon: file:///Applications/com.brend0n.nopastedfrom.app/icon.png
