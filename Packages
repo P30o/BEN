@@ -1,16 +1,16 @@
-Package: com.photomanager.sniper
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: اياياي
-Description: Hhhhhhdhdhdhshshshsshsb
+Package: IAmLazy.me.lightmann.iamlazy.deb
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Gg
+Description: IAmLazy.me.lightmann.iamlazy.deb package for iOS
 Section: Tweaks
-Depends: تثاثثتت
-Filename: ./debs/com.photomanager.sniper_1.1_iphoneos-arm64.deb
-Size: 40704
-MD5sum: 3d28f5fa0c355ecb5f5c0fcf26827eb6
-SHA1: e578d083822240bee9a1e81b7a4a697b6278ff53
-SHA256: 3a46efd429c97992aa93310a691327a24bee122bd7ad3033cbf593766e9b117b
-Name: com.photomanager.hdhshshs
-Author: تثاثثت
-Icon: file:///Applications/com.photomanager.sniper.app/icon.png
+Depends: Ggg
+Filename: ./debs/IAmLazy.me.lightmann.iamlazy.deb
+Size: 187352
+MD5sum: d99f95470aafebbb4dd87ca1f77bbb7b
+SHA1: df7884de105e597f79c1e9d447ee0a6be3f78e78
+SHA256: 5aa7be8af30266598aa864705d9e5770f63bd97efe9f4042edccaf45dc3136e9
+Name: IAmLazy.me.lightmann.iamlazy.deb
+Author: Gggg
+Icon: file:///Applications/IAmLazy.me.lightmann.iamlazy.deb.app/icon.png
 
