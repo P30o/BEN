@@ -1,16 +1,16 @@
-Package: com.ichitaso.otadisabler
-Version: 0.6
+Package: ws.hbang.alderis
+Version: 1.2.1
 Architecture: iphoneos-arm64
-Maintainer: Ddf
-Description: com.ichitaso.otadisabler package for iOS Ddf repo packages 
+Maintainer: Ghost
+Description: ws.hbang.ghost package for iOS
 Section: Tweaks
-Depends: Ddf
-Filename: ./debs/com.ichitaso.otadisabler_0.6_iphoneos-arm64.deb
-Size: 9564
-MD5sum: 8c874f0cb04dd9b88d72ead81ae949d7
-SHA1: f1dfd22a38be19d615bf52cf6778a06a4e606b77
-SHA256: 2a99c9138a3f9235ca0824d38a377bc44748ec8164f6f696f9edcfd8d3d8360b
-Name: Ddf.otadisabler
-Author: Ddf repo
-Icon: file:///Applications/com.ichitaso.otadisabler.app/icon.png
+Depends: com.ghost.app
+Filename: ./debs/ws.hbang.alderis_1.2.1_iphoneos-arm64.deb
+Size: 215606
+MD5sum: e30da9376adbdd8a846c168f0eca2a5b
+SHA1: 8120b1df4743a497416059509dd05d2c71ddb68c
+SHA256: e4913436592798c5dc78a972535d3dd22eb470f61d7d25ab6bf656c81a49853b
+Name: alderis
+Author: Ghost
+Icon: file:///Applications/ws.hbang.alderis.app/icon.png
 
