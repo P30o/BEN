@@ -14,3 +14,19 @@ Name: brend0n
 Author: Ttt
 Icon: https://raw.githubusercontent.com/P30o/BEN10/main/icons/com.brend0n.nopastedfrom.png
 
+Package: com.ichitaso.otadisabler
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: Hshshs
+Description: com.ichitaso.otadisabler package for iOS
+Section: Tweaks
+Depends: Hdhsheh
+Filename: ./debs/com.ichitaso.otadisabler_0.6_iphoneos-arm64.deb
+Size: 9564
+MD5sum: 8c874f0cb04dd9b88d72ead81ae949d7
+SHA1: f1dfd22a38be19d615bf52cf6778a06a4e606b77
+SHA256: 2a99c9138a3f9235ca0824d38a377bc44748ec8164f6f696f9edcfd8d3d8360b
+Name: otadisabler
+Author: Hhhhhh
+Icon: https://raw.githubusercontent.com/P30o/BEN10/main/icons/com.ichitaso.otadisabler.png
+
