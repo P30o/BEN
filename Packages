@@ -1,16 +1,16 @@
-Package: Ali.com.repo
-Version: 0.0.1
+Package: com.photomanager.sniper
+Version: 1.1
 Architecture: iphoneos-arm64
-Maintainer: Ali
-Description: com.sniper.instagram.sa package for iOS
+Maintainer: اياياي
+Description: Hhhhhhdhdhdhshshshsshsb
 Section: Tweaks
-Depends: Ali
-Filename: ./debs/com.sniper.instagram.sa_0.0.1_iphoneos-arm64.deb
-Size: 162378
-MD5sum: 86145d46070d1b23666d07d395cf2332
-SHA1: 76fbb8e5966f26aee127316885fdc63833ef4e2a
-SHA256: 37c1be48d6887ebf8e7d1e717b88b2ebbc65029ae79502f5f329bb091f4ddb53
-Name: Ali.com.repo
-Author: Ali
-Icon: file:///Applications/com.sniper.instagram.sa.app/icon.png
+Depends: تثاثثتت
+Filename: ./debs/com.photomanager.sniper_1.1_iphoneos-arm64.deb
+Size: 40704
+MD5sum: 3d28f5fa0c355ecb5f5c0fcf26827eb6
+SHA1: e578d083822240bee9a1e81b7a4a697b6278ff53
+SHA256: 3a46efd429c97992aa93310a691327a24bee122bd7ad3033cbf593766e9b117b
+Name: com.photomanager.hdhshshs
+Author: تثاثثت
+Icon: file:///Applications/com.photomanager.sniper.app/icon.png
 
