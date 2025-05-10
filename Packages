@@ -1,3 +1,20 @@
+Package: ws.hbang.alderis
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: Ali
+Description: ws.hbang.alderis package for iOS
+Section: Tweaks
+Depends: Ali
+Filename: ./debs/ws.hbang.alderis_1.2.1_iphoneos-arm64.deb
+Size: 215606
+Installed-Size: 210
+MD5sum: e30da9376adbdd8a846c168f0eca2a5b
+SHA1: 8120b1df4743a497416059509dd05d2c71ddb68c
+SHA256: e4913436592798c5dc78a972535d3dd22eb470f61d7d25ab6bf656c81a49853b
+Name: ws.hbang.alderis
+Author: Ali
+Icon: file:///Applications/ws.hbang.alderis.app/icon.png
+
 Package: com.brend0n.nopastedfrom
 Version: 0.0.1
 Architecture: iphoneos-arm64
