@@ -1,0 +1,16 @@
+Package: com.ginsu.comet
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Ali
+Description: com.ginsu.comet package for iOS
+Section: Tweaks
+Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
+Size: 217594
+Installed-Size: 212
+MD5sum: dc525ca5c739423ee6c36bbee577c059
+SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
+SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
+Name: com.ginsu.comet
+Author: Ali
+Icon: /private/var/mobile/Containers/Data/Application/56F089F7-D6A9-4049-8FD8-6BD1404056C3/tmp/D45DC040-AB89-427F-AD99-8E5AAE6EA971.jpeg
+
