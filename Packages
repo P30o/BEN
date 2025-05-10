@@ -1,17 +1,17 @@
-Package: com.ginsu.comet
-Version: 1.0.3
+Package: com.brend0n.nopastedfrom
+Version: 0.0.1
 Architecture: iphoneos-arm64
-Maintainer: Gsgsgsgs
-Description: com.ginsu.comet package for iOS
-Section: Tweaks
-Depends: Sgsgsggsgs
-Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
-Size: 217594
-Installed-Size: 212
-MD5sum: dc525ca5c739423ee6c36bbee577c059
-SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
-SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
-Name: com.ginsu.ghost
-Author: Stsgsgsg
-Icon: file:///Applications/com.ginsu.comet.app/icon.png
+Maintainer: Ggg
+Description: com.brend0n.nopastedfrom packageg for iOS
+Section: Tweaksf
+Depends: Vgg
+Filename: ./debs/com.brend0n.nopastedfrom_0.0.1_iphoneos-arm64.deb
+Size: 3002
+Installed-Size: 2
+MD5sum: ceee5dbec91db31e6faa02349e58cb96
+SHA1: 29494b592ddea0590beefdd5f7fb4f409aaabd33
+SHA256: d11c182e66c1365d88b245daed0fa12145619e7c3de0c4f32f6018dfd6eeb2d1
+Name: com.brend0n.nopastedfrom
+Author: Gggg
+Icon: file:///Applications/com.brend0n.nopastedfrom.app/icon.png
 
