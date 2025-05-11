@@ -48,3 +48,18 @@ Name: Gsgsgsg
 Author: Gdgxgxy
 Icon: file:///Applications/ws.hbang.alderis.app/icon.png
 
+Package: com.dave1482.powerapp
+Version: 6.0.1
+Architecture: iphoneos-arm
+Maintainer: 
+Description: com.dave1482.powerapp package for iOS
+Section: Tweaks
+Filename: ./debs/com.dave1482.powerapp_6.0.1_iphoneos-arm.deb
+Size: 333332
+Installed-Size: 325
+MD5sum: a530dd5dafa66e8eaa19243601eb9919
+SHA1: dbea77220e063a87aa7d55e53784833389663591
+SHA256: 93888110a0ff4404bfd34c9550c05776283f6d95c013be8c334ec6bb5f6c8f8d
+Name: com.dave1482.powerapp
+Icon: file:///Applications/com.dave1482.powerapp.app/icon.png
+
