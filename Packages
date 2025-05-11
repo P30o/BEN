@@ -1,17 +1,15 @@
-Package: com.dave1482.powerapp
-Version: 6.0.1
-Architecture: iphoneos-arm
-Maintainer: Alijejeje
-Description: com.dave1482.powerapp package for iOS
-Section: Jejejejeh
-Depends: Jejej
-Filename: ./debs/com.dave1482.powerapp_6.0.1_iphoneos-arm.deb
-Size: 333332
-Installed-Size: 325
-MD5sum: a530dd5dafa66e8eaa19243601eb9919
-SHA1: dbea77220e063a87aa7d55e53784833389663591
-SHA256: 93888110a0ff4404bfd34c9550c05776283f6d95c013be8c334ec6bb5f6c8f8d
-Name: com.dave1482.powerapp
-Author: Alai
-Icon: /private/var/mobile/Containers/Data/Application/E243E783-F85D-41B3-9113-B91B18044E94/tmp/31C66395-293F-4C9A-BBA6-8C01CCCAABE8.jpeg
+Package: com.ginsu.comet
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: 
+Description: com.ginsu.comet package for iOS
+Section: Tweaks
+Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
+Size: 217594
+Installed-Size: 212
+MD5sum: dc525ca5c739423ee6c36bbee577c059
+SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
+SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
+Name: com.ginsu.comet
+Icon: file:///Applications/com.ginsu.comet.app/icon.png
 
