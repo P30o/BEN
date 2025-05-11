@@ -1,17 +1,17 @@
-Package: com.ginsu.comet
-Version: 1.0.3
+Package: ws.hbang.alderis
+Version: 1.2.1
 Architecture: iphoneos-arm64
-Maintainer: Ali
-Description: com.ginsu.comet package for iOS
+Maintainer: Fyfuf
+Description: ws.hbang.alderis package for iOS
 Section: Tweaks
-Depends: Ali.55
-Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
-Size: 217594
-Installed-Size: 212
-MD5sum: dc525ca5c739423ee6c36bbee577c059
-SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
-SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
-Name: com.ginsu.comet
-Author: Ali
-Icon: file:///Applications/com.ginsu.comet.app/icon.png
+Depends: Guugu
+Filename: ./debs/ws.hbang.alderis_1.2.1_iphoneos-arm64.deb
+Size: 215606
+Installed-Size: 210
+MD5sum: e30da9376adbdd8a846c168f0eca2a5b
+SHA1: 8120b1df4743a497416059509dd05d2c71ddb68c
+SHA256: e4913436592798c5dc78a972535d3dd22eb470f61d7d25ab6bf656c81a49853b
+Name: ws.hbang.alderis
+Author: Hvucvuv
+Icon: file:///Applications/ws.hbang.alderis.app/icon.png
 
