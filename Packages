@@ -20,7 +20,6 @@ Architecture: iphoneos-arm64
 Maintainer: 
 Description: com.ginsu.comet package for iOS
 Section: Tweaks
-Depends: زار
 Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
 Size: 217594
 Installed-Size: 212
@@ -28,4 +27,5 @@ MD5sum: dc525ca5c739423ee6c36bbee577c059
 SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
 SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
 Name: com.ginsu.comet
+Icon: https://raw.githubusercontent.com/P30o/BEN10/main/icons/com.ginsu.comet.jpeg
 
