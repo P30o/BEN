@@ -1,33 +1,3 @@
-Package: com.ginsu.comet
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: 
-Description: com.ginsu.comet package for iOS
-Section: Tweaks
-Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
-Size: 217594
-Installed-Size: 212
-MD5sum: dc525ca5c739423ee6c36bbee577c059
-SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
-SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
-Name: com.ginsu.comet
-Icon: file:///Applications/com.ginsu.comet.app/icon.png
-
-Package: ws.hbang.alderis
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: 
-Description: ws.hbang.alderis package for iOS
-Section: Tweaks
-Filename: ./debs/ws.hbang.alderis_1.2.1_iphoneos-arm64.deb
-Size: 215606
-Installed-Size: 210
-MD5sum: e30da9376adbdd8a846c168f0eca2a5b
-SHA1: 8120b1df4743a497416059509dd05d2c71ddb68c
-SHA256: e4913436592798c5dc78a972535d3dd22eb470f61d7d25ab6bf656c81a49853b
-Name: ws.hbang.alderis
-Icon: file:///Applications/ws.hbang.alderis.app/icon.png
-
 Package: com.bandarhl.bhinsta
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -41,5 +11,5 @@ MD5sum: 5303d88c64bc29ccaed5ec3305088ab7
 SHA1: e4c86f87c5c7afbfaf412d15cceb7f68cb378c86
 SHA256: 734fb973d0b042d1fa8cb82a75b75c932e464a60c3588d00c0e5376728f5612d
 Name: com.bandarhl.bhinsta
-Icon: 0E4B9C56-B230-476A-BC8E-05CA3B961382.jpeg
+Icon: 4C1B6747-4230-4B09-B2B0-D90E677D0008.jpeg
 
