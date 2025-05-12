@@ -1,7 +1,7 @@
 Package: com.bandarhl.bhinsta
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: اااا
+Maintainer: 
 Description: com.bandarhl.bhinsta package for iOS
 Section: Tweaks
 Filename: ./debs/com.bandarhl.bhinsta_1.0_iphoneos-arm64.deb
@@ -11,21 +11,4 @@ MD5sum: 5303d88c64bc29ccaed5ec3305088ab7
 SHA1: e4c86f87c5c7afbfaf412d15cceb7f68cb378c86
 SHA256: 734fb973d0b042d1fa8cb82a75b75c932e464a60c3588d00c0e5376728f5612d
 Name: com.bandarhl.bhinsta
-Author: اااا
-Icon: https://raw.githubusercontent.com/P30o/BEN10/main/icons/com.bandarhl.bhinsta.jpeg
-
-Package: com.ginsu.comet
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: 
-Description: com.ginsu.comet package for iOS
-Section: Tweaks
-Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
-Size: 217594
-Installed-Size: 212
-MD5sum: dc525ca5c739423ee6c36bbee577c059
-SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
-SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
-Name: com.ginsu.comet
-Icon: https://raw.githubusercontent.com/P30o/BEN10/main/icons/com.ginsu.comet.jpeg
 
