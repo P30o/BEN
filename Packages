@@ -13,3 +13,18 @@ SHA256: 734fb973d0b042d1fa8cb82a75b75c932e464a60c3588d00c0e5376728f5612d
 Name: com.bandarhl.bhinsta
 Icon: https://raw.githubusercontent.com/P30o/BEN10/main/icons/com.bandarhl.bhinsta.jpeg
 
+Package: com.dave1482.powerapp
+Version: 6.0.1
+Architecture: iphoneos-arm
+Maintainer: 
+Description: com.dave1482.powerapp package for iOS
+Section: Tweaks
+Filename: ./debs/com.dave1482.powerapp_6.0.1_iphoneos-arm.deb
+Size: 333332
+Installed-Size: 325
+MD5sum: a530dd5dafa66e8eaa19243601eb9919
+SHA1: dbea77220e063a87aa7d55e53784833389663591
+SHA256: 93888110a0ff4404bfd34c9550c05776283f6d95c013be8c334ec6bb5f6c8f8d
+Name: com.dave1482.powerapp
+Icon: https://raw.githubusercontent.com/P30o/BEN10/main/icons/com.dave1482.powerapp.jpeg
+
