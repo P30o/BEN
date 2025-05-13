@@ -1,14 +1,15 @@
-Package: com.bandarhl.bhinsta
-Version: 1.0
-Architecture: iphoneos-arm64
+Package: com.brend0n.nopastedfrom
+Version: 0.0.1
+Architecture: iphoneos-arm64e
 Maintainer: 
-Description: com.bandarhl.bhinsta package for iOS
+Description: com.brend0n.nopastedfrom package for iOS
 Section: Tweaks
-Filename: ./debs/com.bandarhl.bhinsta_1.0_iphoneos-arm64.deb
-Size: 68864
-Installed-Size: 67
-MD5sum: 5303d88c64bc29ccaed5ec3305088ab7
-SHA1: e4c86f87c5c7afbfaf412d15cceb7f68cb378c86
-SHA256: 734fb973d0b042d1fa8cb82a75b75c932e464a60c3588d00c0e5376728f5612d
-Name: com.bandarhl.bhinsta
+Filename: ./debs/com.brend0n.nopastedfrom_0.0.1_iphoneos-arm64.deb
+Size: 3002
+Installed-Size: 2
+MD5sum: ceee5dbec91db31e6faa02349e58cb96
+SHA1: 29494b592ddea0590beefdd5f7fb4f409aaabd33
+SHA256: d11c182e66c1365d88b245daed0fa12145619e7c3de0c4f32f6018dfd6eeb2d1
+Name: com.brend0n.nopastedfrom
+Icon: https://raw.githubusercontent.com/P30o/BEN10/main/icons/com.brend0n.nopastedfrom.jpeg
 
