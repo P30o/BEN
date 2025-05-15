@@ -4,7 +4,7 @@
   "itemCornerRadius": 15,
   "banners": [
     {
-      "url": "https://example.com/banners/frida_new.png",
+      "url": "https://github.com/P30o/BEN/blob/main/icons/com.brend0n.nopastedfrom.jpeg?raw=true",
       "title": "FridaCodeManager Pro",
       "package": "com.sparklechan.swifty",
       "hideShadow": false,
@@ -12,13 +12,13 @@
       "tintColor": "rgba(0, 150, 255, 0.7)"
     },
     {
-      "url": "https://example.com/banners/ali_repo.png",
+      "url": "https://github.com/P30o/BEN/blob/main/icons/com.brend0n.nopastedfrom.jpeg?raw=true",
       "title": "AliRepo Essentials",
       "package": "com.alirepo.essentials",
       "hideShadow": false
     },
     {
-      "url": "https://example.com/banners/tweaks_collection.png",
+      "url": "https://github.com/P30o/BEN/blob/main/icons/com.brend0n.nopastedfrom.jpeg?raw=true",
       "title": "Premium Tweaks Collection",
       "package": "com.alirepo.premium",
       "hideShadow": false
