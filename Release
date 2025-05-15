@@ -1,7 +1,7 @@
-Origin: Ali | Repo
-Label: Ali | Repo
+Origin: Ghost | Repo
+Label: Ghost | Repo
 Suite: stable
-Version: 2.0
+Version: 1.0
 Codename: iOS Premium
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
