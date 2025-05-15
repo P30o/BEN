@@ -1,44 +1,13 @@
 {
   "class": "FeaturedBannersView",
   "itemSize": "{380, 180}",
-  "itemCornerRadius": 20,
-  "itemShadow": {
-    "color": "#000000",
-    "opacity": 0.1,
-    "radius": 14,
-    "offset": "{0, 8}"
-  },
-  "background": {
-    "type": "blur",
-    "style": "ultraThinMaterialDark"
-  },
-  "itemBorder": {
-    "width": 1,
-    "color": "#3c3c3c"
-  },
+  "itemCornerRadius": 10,
   "banners": [
     {
       "url": "https://e.top4top.io/p_321170duk0.png",
       "title": "FridaCodeManager",
       "package": "com.sparklechan.swifty",
-      "titleFont": {
-        "size": 17,
-        "weight": "medium",
-        "color": "#ffffff"
-      },
-      "hideShadow": false,
-      "badge": {
-        "text": "New",
-        "color": "#ff3b30",
-        "textColor": "#ffffff",
-        "cornerRadius": 8,
-        "position": "top-right"
-      }
+      "hideShadow": false
     }
-  ],
-  "autoScroll": {
-    "enabled": true,
-    "interval": 4.0,
-    "animation": "easeInOut"
-  }
+  ]
 }
