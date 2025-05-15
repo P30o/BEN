@@ -12,17 +12,3 @@ SHA1: dbea77220e063a87aa7d55e53784833389663591
 SHA256: 93888110a0ff4404bfd34c9550c05776283f6d95c013be8c334ec6bb5f6c8f8d
 Name: com.dave1482.powerapp
 
-Package: com.bandarhl.bhinsta
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 
-Description: com.bandarhl.bhinsta package for iOS
-Section: Tweaks
-Filename: ./debs/com.bandarhl.bhinsta_1.0_iphoneos-arm64.deb
-Size: 68864
-Installed-Size: 67
-MD5sum: 5303d88c64bc29ccaed5ec3305088ab7
-SHA1: e4c86f87c5c7afbfaf412d15cceb7f68cb378c86
-SHA256: 734fb973d0b042d1fa8cb82a75b75c932e464a60c3588d00c0e5376728f5612d
-Name: com.bandarhl.bhinsta
-
