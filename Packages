@@ -1,9 +1,10 @@
 Package: com.brend0n.nopastedfrom
 Version: 0.0.1
 Architecture: iphoneos-arm64
-Maintainer: 
+Maintainer: Hehehehehsh
 Description: com.brend0n.nopastedfrom package for iOS
-Section: Tweaks
+Section: Ghshsgsg
+Depends: Hehshhhhhhh
 Filename: ./debs/com.brend0n.nopastedfrom_0.0.1_iphoneos-arm64.deb
 Size: 3002
 Installed-Size: 2
@@ -11,4 +12,6 @@ MD5sum: ceee5dbec91db31e6faa02349e58cb96
 SHA1: 29494b592ddea0590beefdd5f7fb4f409aaabd33
 SHA256: d11c182e66c1365d88b245daed0fa12145619e7c3de0c4f32f6018dfd6eeb2d1
 Name: com.brend0n.nopastedfrom
+Author: Hhhhhh
+Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.brend0n.nopastedfrom.jpeg
 
