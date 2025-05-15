@@ -1,8 +1,10 @@
 Origin: Ali | Repo
 Label: Ali | Repo
 Suite: stable
-Version: 1.0
-Codename: iOS
+Version: 2.0
+Codename: iOS Premium
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: من أجلك — باقة مميزة لأجهزة iOS من مستودع Ali
+Description: مستودع علي الرسمي - واجهة جديدة كلياً بتصميم عصري
+  تجربة مستخدم فريدة مع أحدث الحزم المميزة لأجهزة iOS
+  تابعنا على تويتر للحصول على آخر التحديثات
