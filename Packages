@@ -1,43 +1,17 @@
-Package: com.dave1482.powerapp
-Version: 6.0.1
-Architecture: iphoneos-arm
-Maintainer: 
-Description: com.dave1482.powerapp package for iOS
-Section: Tweaks
-Filename: ./debs/com.dave1482.powerapp_6.0.1_iphoneos-arm.deb
-Size: 333332
-Installed-Size: 325
-MD5sum: a530dd5dafa66e8eaa19243601eb9919
-SHA1: dbea77220e063a87aa7d55e53784833389663591
-SHA256: 93888110a0ff4404bfd34c9550c05776283f6d95c013be8c334ec6bb5f6c8f8d
-Name: com.dave1482.powerapp
-
-Package: com.brend0n.nopastedfrom
-Version: 0.0.1
+Package: com.bandarhl.bhinsta
+Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: 
-Description: com.brend0n.nopastedfrom package for iOS
-Section: Tweaks
-Filename: ./debs/com.brend0n.nopastedfrom_0.0.1_iphoneos-arm64.deb
-Size: 3002
-Installed-Size: 2
-MD5sum: ceee5dbec91db31e6faa02349e58cb96
-SHA1: 29494b592ddea0590beefdd5f7fb4f409aaabd33
-SHA256: d11c182e66c1365d88b245daed0fa12145619e7c3de0c4f32f6018dfd6eeb2d1
-Name: com.brend0n.nopastedfrom
-
-Package: com.ginsu.comet
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: 
-Description: com.ginsu.comet package for iOS
-Section: Tweaks
-Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
-Size: 217594
-Installed-Size: 212
-MD5sum: dc525ca5c739423ee6c36bbee577c059
-SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
-SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
-Name: com.ginsu.comet
-Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.ginsu.comet.jpeg
+Maintainer: تتت
+Description: com.bandarhl.bhinsta package for iOS
+Section: ارااا
+Depends: تقتقت
+Filename: ./debs/com.bandarhl.bhinsta_1.0_iphoneos-arm64.deb
+Size: 68864
+Installed-Size: 67
+MD5sum: 5303d88c64bc29ccaed5ec3305088ab7
+SHA1: e4c86f87c5c7afbfaf412d15cceb7f68cb378c86
+SHA256: 734fb973d0b042d1fa8cb82a75b75c932e464a60c3588d00c0e5376728f5612d
+Name: com.bandarhl.bhinsta
+Author: تبتبتتقتقت
+Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.bandarhl.bhinsta.jpeg
 
