@@ -1,12 +1,26 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{380, 180}",
-  "itemCornerRadius": 10,
+  "itemSize": "{400, 200}",
+  "itemCornerRadius": 15,
   "banners": [
     {
-      "url": "https://e.top4top.io/p_321170duk0.png",
-      "title": "FridaCodeManager",
+      "url": "https://example.com/banners/frida_new.png",
+      "title": "FridaCodeManager Pro",
       "package": "com.sparklechan.swifty",
+      "hideShadow": false,
+      "useBannerTint": true,
+      "tintColor": "rgba(0, 150, 255, 0.7)"
+    },
+    {
+      "url": "https://example.com/banners/ali_repo.png",
+      "title": "AliRepo Essentials",
+      "package": "com.alirepo.essentials",
+      "hideShadow": false
+    },
+    {
+      "url": "https://example.com/banners/tweaks_collection.png",
+      "title": "Premium Tweaks Collection",
+      "package": "com.alirepo.premium",
       "hideShadow": false
     }
   ]
