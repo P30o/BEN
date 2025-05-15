@@ -1,8 +1,32 @@
 <repo>
-	<footerlinks>
-		<link>
-			<name>I AM SELLING OUT</name>
-			<url>https://x.com/ghosttechxx</url>
-			<iconclass>fa fa-youtube</iconclass>
-		</link>
+  <header>
+    <banner>https://example.com/banners/repo_header.jpg</banner>
+    <title>Ali | Repo</title>
+    <subtitle>المستودع الأكثر تميزًا لتعديل iOS</subtitle>
+  </header>
+  
+  <footerlinks>
+    <link>
+      <name>تويتر الرسمي</name>
+      <url>https://x.com/ghosttechxx</url>
+      <iconclass>fab fa-twitter</iconclass>
+    </link>
+    <link>
+      <name>دعم فني</name>
+      <url>https://t.me/alirepo_support</url>
+      <iconclass>fab fa-telegram</iconclass>
+    </link>
+    <link>
+      <name>التحديثات</name>
+      <url>https://alirepo.com/changelog</url>
+      <iconclass>fas fa-code-branch</iconclass>
+    </link>
+  </footerlinks>
+  
+  <styles>
+    <primaryColor>#0066cc</primaryColor>
+    <secondaryColor>#00aaff</secondaryColor>
+    <darkModeSupport>true</darkModeSupport>
+    <roundedIcons>true</roundedIcons>
+  </styles>
 </repo>
