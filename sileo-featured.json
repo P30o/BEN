@@ -1,21 +1,20 @@
 {
   "class": "FeaturedBannersView",
   "itemSize": "{380, 180}",
-  "itemCornerRadius": 16,
+  "itemCornerRadius": 20,
   "itemShadow": {
     "color": "#000000",
-    "opacity": 0.15,
-    "radius": 12,
-    "offset": "{0, 6}"
+    "opacity": 0.1,
+    "radius": 14,
+    "offset": "{0, 8}"
+  },
+  "background": {
+    "type": "blur",
+    "style": "ultraThinMaterialDark"
   },
   "itemBorder": {
-    "width": 0,
-    "color": "#FFFFFF"
-  },
-  "backgroundGradient": {
-    "startColor": "#1e1e2f",
-    "endColor": "#2c2c3e",
-    "direction": "vertical"
+    "width": 1,
+    "color": "#3c3c3c"
   },
   "banners": [
     {
@@ -23,17 +22,23 @@
       "title": "FridaCodeManager",
       "package": "com.sparklechan.swifty",
       "titleFont": {
-        "size": 18,
-        "weight": "semibold",
-        "color": "#FFFFFF"
+        "size": 17,
+        "weight": "medium",
+        "color": "#ffffff"
       },
       "hideShadow": false,
       "badge": {
-        "text": "NEW",
-        "color": "#ff4f70",
-        "textColor": "#FFFFFF",
-        "cornerRadius": 6
+        "text": "New",
+        "color": "#ff3b30",
+        "textColor": "#ffffff",
+        "cornerRadius": 8,
+        "position": "top-right"
       }
     }
-  ]
+  ],
+  "autoScroll": {
+    "enabled": true,
+    "interval": 4.0,
+    "animation": "easeInOut"
+  }
 }
