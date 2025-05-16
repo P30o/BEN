@@ -28,6 +28,7 @@ MD5sum: a530dd5dafa66e8eaa19243601eb9919
 SHA1: dbea77220e063a87aa7d55e53784833389663591
 SHA256: 93888110a0ff4404bfd34c9550c05776283f6d95c013be8c334ec6bb5f6c8f8d
 Name: com.dave1482.powerapp
+Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.dave1482.powerapp.png
 
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
