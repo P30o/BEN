@@ -82,9 +82,10 @@ Depiction: https://chariz.com/get/alderis
 Package: com.bandarhl.bhinsta
 Version: 1.2
 Architecture: iphoneos-arm64
-Maintainer: Heehhehhhتيتي
+Maintainer: تتت
 Description: com.bandarhl.bhinsta package for iOS
-Section: Test
+Section: تتتتت
+Depends: تت
 Filename: ./debs/com.bandarhl.bhinsta_1.2_iphoneos-arm64.deb
 Size: 69604
 Installed-Size: 67
@@ -92,5 +93,5 @@ MD5sum: 71f143117e551608634762eb15ffb87d
 SHA1: 0b6c6eeda9961c4fe2c7070b8fb3975dd2968630
 SHA256: e6d3317bee595b6c8adf6f7b8c42cdd00480a17fb83224756d74da5c6105f24a
 Name: com.bandarhl.bhinsta
-Author: Heehhehhhتيتي
+Author: تحربةت
 
