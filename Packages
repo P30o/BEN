@@ -1,81 +1,14 @@
 Package: com.brend0n.nopastedfrom
-Architecture: iphoneos-arm64
 Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 
+Description: com.brend0n.nopastedfrom package for iOS
 Section: Tweaks
-Maintainer: Brend0n <brendonjkding@126.com>
-Installed-Size: 152
-Depends: mobilesubstrate
-Filename: ./debs//com.brend0n.nopastedfrom_0.0.1_iphoneos-arm64.deb
+Filename: ./debs/com.brend0n.nopastedfrom_0.0.1_iphoneos-arm64.deb
 Size: 3002
+Installed-Size: 2
 MD5sum: ceee5dbec91db31e6faa02349e58cb96
 SHA1: 29494b592ddea0590beefdd5f7fb4f409aaabd33
 SHA256: d11c182e66c1365d88b245daed0fa12145619e7c3de0c4f32f6018dfd6eeb2d1
-SHA512: 4b0688f01bb384dfce545873f622cbbd94ba30f64950f4b67ddcad63cf945fa8ab063b79e448e129df792d635fb4ff333d3fa7020f4f7f44e619e3118fe2f03e
-Description: No "XX pasted from YY"
-Name: NoPastedFrom
-Author: Brend0n <brendonjkding@126.com>
-
-Package: com.dave1482.powerapp
-Architecture: iphoneos-arm
-Version: 6.0.1
-Section: Utilities
-Maintainer: dave1482 <dave1482@dave1482.com>
-Installed-Size: 1108
-Pre-Depends: firmware (>= 8.0), system-cmds, shell-cmds, coreutils, bash
-Conflicts: com.dave1482.powerappbeta
-Filename: ./debs//com.dave1482.powerapp_6.0.1_iphoneos-arm.deb
-Size: 333332
-MD5sum: a530dd5dafa66e8eaa19243601eb9919
-SHA1: dbea77220e063a87aa7d55e53784833389663591
-SHA256: 93888110a0ff4404bfd34c9550c05776283f6d95c013be8c334ec6bb5f6c8f8d
-SHA512: e5a221debeea4ec3f69304a157cdef8a542b76faddefcf812bd2a72a9471625cd12cba3d6c4616967d29dcd163ab732a21dd85027f51ee18528abf1d4cd635d6
-Description: Reboot, Shutdown, Respring, go into Safemode
-Tag: compatible_min::ios8.0
-Name: PowerApp
-Author: dave1482 <dave1482@dave1482.com>
-Icon: https://cdn.chariz.cloud/icon/powerapp/icon@3x.png
-Depiction: https://chariz.com/get/powerapp
-
-Package: com.ginsu.comet
-Architecture: iphoneos-arm64
-Version: 1.0.3
-Section: Tweaks
-Maintainer: Ginsu <njl02@outlook.com>
-Installed-Size: 2282
-Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: ./debs//com.ginsu.comet_1.0.3_iphoneos-arm64.deb
-Size: 217594
-MD5sum: dc525ca5c739423ee6c36bbee577c059
-SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
-SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
-SHA512: 6fedc272e08f6877babcca29e3517405e40ca5b151fa339333f2fee7a50cf8aca3010f05f91d81358261eb52d31d3692816f23e9128e7bc796b1f333501f4ea4
-Description: A SwiftUI Prefs Framework
-Tag: compatible_min::ios14.0
-Author: Ginsu <njl02@outlook.com>
-Name: Comet
-Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
-Depiction: https://chariz.com/get/comet
-
-Package: ws.hbang.alderis
-Architecture: iphoneos-arm64
-Version: 1.2.1
-Section: Development
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 1173
-Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
-Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
-Filename: ./debs//ws.hbang.alderis_1.2.1_iphoneos-arm64.deb
-Size: 215606
-MD5sum: e30da9376adbdd8a846c168f0eca2a5b
-SHA1: 8120b1df4743a497416059509dd05d2c71ddb68c
-SHA256: e4913436592798c5dc78a972535d3dd22eb470f61d7d25ab6bf656c81a49853b
-SHA512: e6eda588e02da636bb3ce294e52d14d267d37074169520305e5c598ba51aaca5d2ef47a385cf84481a7c21164cc3da1666c7005a9c5477005fe9ae6de0c6b793
-Description: Color picker support library for tweaks
-Tag: role::developer, compatible_min::ios12.0
-Author: HASHBANG Productions <support@hbang.ws>
-Name: Alderis Color Picker
-Support: https://hashbang.productions/support/
-Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
-Depiction: https://chariz.com/get/alderis
+Name: com.brend0n.nopastedfrom
 
