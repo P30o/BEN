@@ -1,17 +1,17 @@
-Package: com.ghost.pkg
+Package: com.packages.ghost
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: GhostTechXx
-Description: com.ghost.pkg package for iOS
-Section: GhostTechXx
-Depends: GhostTechXx
-Filename: ./debs/com.ghost.pkg_1.0_iphoneos-arm64.deb
-Size: 1280792
+Maintainer: Ghost
+Description: com.packages.ghost package for iOS
+Section: Tweaks
+Depends: Ghost
+Filename: ./debs/com.packages.ghost_1.0_iphoneos-arm64.deb
+Size: 1280572
 Installed-Size: 1250
-MD5sum: 469de2e153be20bea35eddbe0803e7c6
-SHA1: 798fd36d49195c7630832f149814790bd84fb12e
-SHA256: 77d5213b65a812f976d0c34d94519ea3fd853bdcb6d527dae79cec1c0327cd36
-Name: com.ghost.pkg
-Author: GhostTechXx
-Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.ghost.pkg.png
+MD5sum: 9518875086ad5965c0817c39da66c13e
+SHA1: 712c011f1cdde6536b8f4c50d5800d9c34332b43
+SHA256: bb2ff2aac2688c6fa9f8c48c3b01d433a679a0019c16c796a0a80f5dc9f3c93a
+Name: PKG
+Author: Ghost
+Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.packages.ghost.png
 
