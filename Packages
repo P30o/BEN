@@ -73,3 +73,20 @@ Support: https://hashbang.productions/support/
 Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Depiction: https://chariz.com/get/alderis
 
+Package: com.netskao.awemealwaysshowtime
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Ghost
+Description: com.netskao.awemealwaysshowtime package for iOS
+Section: Ghost
+Depends: Ghost
+Filename: ./debs/com.netskao.awemealwaysshowtime_1.1-1_iphoneos-arm64.deb
+Size: 2312
+Installed-Size: 2
+MD5sum: e01834b0ee0fe02e0ec9adf9a029eb8b
+SHA1: 9150fc47c787a4b57f4c9dbf05161b97a15f57ea
+SHA256: 107079edc569872e264f13c7e04928ab42aec7cc8a392b7e63e80e39f6535f55
+Name: com.netskao.awemealwaysshowtime
+Author: Ghost
+Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.netskao.awemealwaysshowtime.png
+
