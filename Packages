@@ -16,25 +16,18 @@ Name: NoPastedFrom
 Author: Brend0n <brendonjkding@126.com>
 
 Package: com.dave1482.powerapp
-Architecture: iphoneos-arm
 Version: 6.0.1
-Section: Utilities
-Maintainer: dave1482 <dave1482@dave1482.com>
-Installed-Size: 1108
-Pre-Depends: firmware (>= 8.0), system-cmds, shell-cmds, coreutils, bash
-Conflicts: com.dave1482.powerappbeta
-Filename: ./debs//com.dave1482.powerapp_6.0.1_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Maintainer: 
+Description: com.dave1482.powerapp package for iOS
+Section: Tweaks
+Filename: ./debs/com.dave1482.powerapp_6.0.1_iphoneos-arm.deb
 Size: 333332
+Installed-Size: 325
 MD5sum: a530dd5dafa66e8eaa19243601eb9919
 SHA1: dbea77220e063a87aa7d55e53784833389663591
 SHA256: 93888110a0ff4404bfd34c9550c05776283f6d95c013be8c334ec6bb5f6c8f8d
-SHA512: e5a221debeea4ec3f69304a157cdef8a542b76faddefcf812bd2a72a9471625cd12cba3d6c4616967d29dcd163ab732a21dd85027f51ee18528abf1d4cd635d6
-Description: Reboot, Shutdown, Respring, go into Safemode
-Tag: compatible_min::ios8.0
-Name: PowerApp
-Author: dave1482 <dave1482@dave1482.com>
-Icon: https://cdn.chariz.cloud/icon/powerapp/icon@3x.png
-Depiction: https://chariz.com/get/powerapp
+Name: com.dave1482.powerapp
 
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
