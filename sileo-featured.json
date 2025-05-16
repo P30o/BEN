@@ -1,26 +1,15 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{400, 200}",
-  "itemCornerRadius": 15,
+  "itemSize": {
+    "width": 380,
+    "height": 180
+  },
+  "itemCornerRadius": 10,
   "banners": [
     {
-      "url": "https://github.com/P30o/BEN/blob/main/icons/com.brend0n.nopastedfrom.jpeg?raw=true",
-      "title": "FridaCodeManager Pro",
+      "title": "FridaCodeManager",
       "package": "com.sparklechan.swifty",
-      "hideShadow": false,
-      "useBannerTint": true,
-      "tintColor": "rgba(0, 150, 255, 0.7)"
-    },
-    {
-      "url": "https://github.com/P30o/BEN/blob/main/icons/com.brend0n.nopastedfrom.jpeg?raw=true",
-      "title": "AliRepo Essentials",
-      "package": "com.alirepo.essentials",
-      "hideShadow": false
-    },
-    {
-      "url": "https://github.com/P30o/BEN/blob/main/icons/com.brend0n.nopastedfrom.jpeg?raw=true",
-      "title": "Premium Tweaks Collection",
-      "package": "com.alirepo.premium",
+      "url": "https://e.top4top.io/p_321170duk0.png",
       "hideShadow": false
     }
   ]
