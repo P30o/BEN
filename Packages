@@ -80,18 +80,18 @@ Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Depiction: https://chariz.com/get/alderis
 
 Package: com.bandarhl.bhinsta
-Version: 1.2
+Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: تتت
+Maintainer: Gg
 Description: com.bandarhl.bhinsta package for iOS
-Section: تتتتت
-Depends: تت
-Filename: ./debs/com.bandarhl.bhinsta_1.2_iphoneos-arm64.deb
-Size: 69604
+Section: Gggggg
+Depends: Gg
+Filename: ./debs/com.bandarhl.bhinsta_1.0_iphoneos-arm64.deb
+Size: 68864
 Installed-Size: 67
-MD5sum: 71f143117e551608634762eb15ffb87d
-SHA1: 0b6c6eeda9961c4fe2c7070b8fb3975dd2968630
-SHA256: e6d3317bee595b6c8adf6f7b8c42cdd00480a17fb83224756d74da5c6105f24a
-Name: com.bandarhl.bhinsta
-Author: تحربةت
+MD5sum: 5303d88c64bc29ccaed5ec3305088ab7
+SHA1: e4c86f87c5c7afbfaf412d15cceb7f68cb378c86
+SHA256: 734fb973d0b042d1fa8cb82a75b75c932e464a60c3588d00c0e5376728f5612d
+Name: bhinsta
+Author: Gg
 
