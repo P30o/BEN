@@ -16,3 +16,20 @@ Author: ghost
 Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.packages.ghost.png
 Header: https://raw.githubusercontent.com/P30o/BEN/main/headers/com.packages.ghost.png
 
+Package: com.bvn.bhtiktok++
+Version: 1.9.3
+Architecture: iphoneos-arm64
+Maintainer: Gg
+Description: com.bvn.bhtiktok++ package for iOS
+Section: Tweaks
+Depends: Gg
+Filename: ./debs/com.bvn.bhtiktok++_1.9.3_iphoneos-arm64.deb
+Size: 328154
+Installed-Size: 320
+MD5sum: 15a56529318ef9535b956f44cc8347cf
+SHA1: 2b0334e42cb1f0ab7edcbd2186d667e8ede93a45
+SHA256: a57ad9498f56a0aac3c048f55963353c677ca77f0a0cfe9dca124a1786b6a002
+Name: com.bvn.bhtiktok++
+Author: Hggg
+Header: https://raw.githubusercontent.com/P30o/BEN/main/headers/com.bvn.bhtiktok++.png
+
