@@ -17,18 +17,14 @@ Header: https://raw.githubusercontent.com/P30o/BEN/main/headers/com.bvn.bhtiktok
 Package: com.packages.ghost
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: GHOST
+Maintainer: 
 Description: com.packages.ghost package for iOS
 Section: Tweaks
-Depends: com.ghost.pkg
 Filename: ./debs/com.packages.ghost_1.0_iphoneos-arm64.deb
 Size: 1280976
 Installed-Size: 1250
 MD5sum: c35b9b93de0b7793b1e68c6ab7fb8131
 SHA1: 51e326139b92a578b003e82c066aff94290a3b5a
 SHA256: a4e22d57c758e333c6bf77797191829ea7e124af57b87113fd8b87cfaaacdfb4
-Name: GHOST
-Author: GHOST
-Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.packages.ghost.png
-Header: https://raw.githubusercontent.com/P30o/BEN/main/headers/com.packages.ghost.png
+Name: com.packages.ghost
 
