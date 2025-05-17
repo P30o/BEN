@@ -79,20 +79,3 @@ Support: https://hashbang.productions/support/
 Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Depiction: https://chariz.com/get/alderis
 
-Package: com.packages.ghost
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Ghost
-Description: com.packages.ghost package for iOS
-Section: Tweaks
-Depends: Ghost
-Filename: ./debs/com.packages.ghost_1.0_iphoneos-arm64.deb
-Size: 1280976
-Installed-Size: 1250
-MD5sum: c35b9b93de0b7793b1e68c6ab7fb8131
-SHA1: 51e326139b92a578b003e82c066aff94290a3b5a
-SHA256: a4e22d57c758e333c6bf77797191829ea7e124af57b87113fd8b87cfaaacdfb4
-Name: PKG GHOST
-Author: Ghost
-Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.packages.ghost_1.png
-
