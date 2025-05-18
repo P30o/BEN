@@ -1,37 +1,44 @@
 {
   "class": "FeaturedBannersView",
+  "title": "الحزم المميزة",
   "itemSize": {
     "width": 400,
     "height": 200
   },
-  "itemCornerRadius": 20,
+  "itemCornerRadius": 15,
   "banners": [
     {
-      "title": "FridaCodeManager",
-      "package": "com.sparklechan.swifty",
-      "url": "https://i.imgur.com/abc123.png",
+      "title": "YouTube X Premium",
+      "package": "com.ghost.youtubex",
+      "url": "https://ghostrepo.elite/banners/youtubex-banner.jpg",
       "hideShadow": false,
-      "description": "🛠️ أداة متقدمة لتعديل الأكواد البرمجية بشكل ديناميكي!",
-      "callToAction": "تثبيت الآن",
-      "ribbonText": "جديد!",
-      "gradientColors": ["#6e48aa", "#9d50bb"]
+      "tintColor": "#FF0000",
+      "description": "حظر إعلانات وتشغيل خلفي ليوتيوب",
+      "badge": "جديد"
     },
     {
-      "title": "PhantomX Pro",
-      "package": "com.ghost.phantomx",
-      "url": "https://i.imgur.com/xyz456.png",
+      "title": "Phantom Tweaks Pro",
+      "package": "com.ghost.phantomtweaks",
+      "url": "https://ghostrepo.elite/banners/phantomtweaks-banner.jpg",
       "hideShadow": false,
-      "description": "👻 أداة الأمان الشبحية لحماية خصوصيتك!",
-      "callToAction": "اكتشف المزيد",
-      "ribbonText": "حصري",
-      "gradientColors": ["#1a1a1a", "#434343"]
+      "tintColor": "#00AAFF",
+      "description": "مجموعة تعديلات شبحية متقدمة",
+      "badge": "مميز"
+    },
+    {
+      "title": "Ghost Launcher",
+      "package": "com.ghost.launcher",
+      "url": "https://ghostrepo.elite/banners/launcher-banner.jpg",
+      "hideShadow": false,
+      "tintColor": "#8A2BE2",
+      "description": "شاشة بدء قابلة للتخصيص بالكامل",
+      "badge": "حصري"
     }
   ],
   "footer": {
-    "text": "GhostRepo Elite - المصدر الأسطوري",
+    "text": "GhostRepo Elite - النظام الأسطوري للجلبريك",
     "textColor": "#FFFFFF",
-    "backgroundColor": "#000000",
-    "buttonText": "زيارة الموقع",
-    "buttonURL": "https://ghostrepo.com"
+    "backgroundColor": "#1A1A1A",
+    "icon": "https://ghostrepo.elite/assets/logo-small.png"
   }
 }

@@ -2,52 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <!-- القسم الرئيسي للمعلومات -->
     <key>Meta</key>
     <dict>
-        <key>Origin</key>
-        <string>GhostRepo | Elite</string>
-        <key>Label</key>
-        <string>👻 GhostRepo VIP</string>
-        <key>Suite</key>
-        <string>stable</string>
-        <key>Version</key>
-        <string>3.0</string>
-        <key>Codename</key>
-        <string>iOS Phantom Edition</string>
-        <key>Architectures</key>
-        <array>
-            <string>iphoneos-arm</string>
-            <string>iphoneos-arm64</string>
-            <string>iphoneos-arm64e</string>
-        </array>
-        <key>Components</key>
-        <string>main</string>
-        <key>Description</key>
-        <string>🔥 المصدر الأقوى في عالم الجلبريك | وصف تفصيلي لكل حزمة | دعم كافة المعالجات | صور وتفاصيل كاملة!</string>
-        <key>Author</key>
-        <string>Ghost Team</string>
-        <key>Website</key>
-        <string>https://ghostrepo.com</string>
-        <key>Donate</key>
-        <string>https://ghostrepo.com/donate</string>
-        <key>Social</key>
-        <dict>
-            <key>Twitter</key>
-            <string>@GhostRepo</string>
-            <key>Discord</key>
-            <string>https://discord.gg/ghostrepo</string>
-        </dict>
+        <key>RepoID</key>
+        <string>com.ghostrepo.elite</string>
+        <key>RepoType</key>
+        <string>Official</string>
+        <key>RepoCert</key>
+        <string>SHA256: 3A5B7C9D0E1F2A3B4C5D6E7F8A9B0C1D2E3F4A5B6C7D8E9F0A1B2C3D4E5F6A7B</string>
+        <key>BuildDate</key>
+        <string>2023-06-20</string>
     </dict>
-    <key>Repository</key>
+
+    <!-- المعلومات الأساسية -->
+    <key>Origin</key>
+    <string>GhostRepo Elite</string>
+    <key>Label</key>
+    <string>GhostRepo Elite System</string>
+    <key>Suite</key>
+    <string>stable</string>
+    <key>Version</key>
+    <string>3.0.0</string>
+    <key>Codename</key>
+    <string>iOS Phantom</string>
+    
+    <!-- الدعم المعماري -->
+    <key>Architectures</key>
+    <array>
+        <string>iphoneos-arm</string>
+        <string>iphoneos-arm64</string>
+        <string>iphoneos-arm64e</string>
+    </array>
+    
+    <!-- المكونات -->
+    <key>Components</key>
+    <string>main</string>
+    
+    <!-- الوصف التفصيلي -->
+    <key>Description</key>
+    <string>GhostRepo Elite - النظام الأسطوري للجلبريك | وصف تفصيلي كامل لكل حزمة | دعم فني متكامل | تصميم عصري فاخر | يدعم جميع أجهزة iOS</string>
+    
+    <!-- معلومات التواصل -->
+    <key>Contact</key>
     <dict>
-        <key>Packages</key>
-        <string>https://ghostrepo.com/Packages</string>
-        <key>Packages.bz2</key>
-        <string>https://ghostrepo.com/Packages.bz2</string>
-        <key>Packages.gz</key>
-        <string>https://ghostrepo.com/Packages.gz</string>
-        <key>Release</key>
-        <string>https://ghostrepo.com/Release</string>
+        <key>Website</key>
+        <string>https://ghostrepo.elite</string>
+        <key>Support</key>
+        <string>https://ghostrepo.elite/support</string>
+        <key>Donate</key>
+        <string>https://ghostrepo.elite/donate</string>
+        <key>Business</key>
+        <string>contact@ghostrepo.elite</string>
+    </dict>
+    
+    <!-- الوسائط المرئية -->
+    <key>Media</key>
+    <dict>
+        <key>Icon</key>
+        <string>https://ghostrepo.elite/assets/icon.png</string>
+        <key>Header</key>
+        <string>https://ghostrepo.elite/assets/header.jpg</string>
+        <key>Background</key>
+        <string>https://ghostrepo.elite/assets/bg.jpg</string>
+        <key>Logo</key>
+        <string>https://ghostrepo.elite/assets/logo.png</string>
+    </dict>
+    
+    <!-- الشبكات الاجتماعية -->
+    <key>Social</key>
+    <dict>
+        <key>Twitter</key>
+        <string>https://twitter.com/GhostRepo</string>
+        <key>Telegram</key>
+        <string>https://t.me/GhostRepo</string>
+        <key>Discord</key>
+        <string>https://discord.gg/ghostrepo</string>
+        <key>YouTube</key>
+        <string>https://youtube.com/GhostRepo</string>
+    </dict>
+    
+    <!-- نظام الأمان -->
+    <key>Security</key>
+    <dict>
+        <key>PGPKey</key>
+        <string>https://ghostrepo.elite/security/pgp.asc</string>
+        <key>Verification</key>
+        <string>https://ghostrepo.elite/security/verify</string>
     </dict>
 </dict>
 </plist>

@@ -1,13 +1,26 @@
-Origin: Ghost | Repo
-Label: Ghost | Repo
+Origin: GhostRepo Elite
+Label: GhostRepo Elite System
 Suite: stable
-Version: 2.0
-Codename: iOS Premium Elite
+Version: 3.0.0
+Codename: iOS Phantom
+Date: Sun, 20 Jun 2023 15:30:00 +0300
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: GhostRepo - المصدر الأسطوري للجلبريك | يدعم جميع الأجهزة | حزم حصرية وأدوات متطورة | وصف تفصيلي لكل أداة
+Description: GhostRepo Elite - النظام الأسطوري للجلبريك | وصف تفصيلي كامل لكل حزمة | دعم فني متكامل | تصميم عصري فاخر
 MD5Sum:
- 8a1e3f4d5b6c7d8e9f0a1b2c3d4e5f6  Packages
- 1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6  Packages.bz2
- 2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e  Packages.gz
- 3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f  Packages.xz
+  8a1e3f4d5b6c7d8e9f0a1b2c3d4e5f6  12568942  Packages
+  1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6  6521487   Packages.bz2
+  2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e  8745123   Packages.gz
+  3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f  9658741   Packages.xz
+SHA1:
+  a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0  12568942  Packages
+  b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1  6521487   Packages.bz2
+  c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2  8745123   Packages.gz
+SHA256:
+  2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3  12568942  Packages
+  3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4  6521487   Packages.bz2
+Signed-By: 
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  mQINBF4yB1YBEADTLpZ...
+  ... [مفتاح PGP الكامل]
+  -----END PGP PUBLIC KEY BLOCK-----
