@@ -1,0 +1,61 @@
+name: 🚀 تحديث مستودع الحزم التلقائي
+
+on:
+  push:
+    paths:
+      - 'debs/**'  # يتفعل فقط عند تغيير ملفات في مجلد debs
+  pull_request:
+    paths:
+      - 'debs/**'
+  workflow_dispatch:  # يسمح بالتشغيل اليدوي
+
+jobs:
+  update_packages:
+    runs-on: ubuntu-latest
+    steps:
+      # الخطوة 1: تحميل المستودع
+      - name: ⬇️ تحميل الكود
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # ضروري لعمليات git اللاحقة
+
+      # الخطوة 2: تثبيت المتطلبات
+      - name: ⚙️ إعداد البيئة
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            dpkg-dev \
+            bzip2 \
+            xz-utils \
+            gzip
+
+      # الخطوة 3: إنشاء ملفات الفهرس
+      - name: 📦 إنشاء Packages
+        run: |
+          # إنشاء الملف الرئيسي
+          dpkg-scanpackages -m debs /dev/null > Packages
+          
+          # إنشاء النسخ المضغوطة
+          bzip2 -kf Packages
+          xz -kf Packages
+          gzip -kf Packages
+          
+          # إنشاء ملفات التجزئة
+          md5sum Packages > Packages.md5
+          sha1sum Packages > Packages.sha1
+          sha256sum Packages > Packages.sha256
+
+      # الخطوة 4: رفع التغييرات
+      - name: 🔄 حفظ التغييرات
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          git add Packages*
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "🔄 تحديث تلقائي لفهرس الحزم [skip ci]"
+            git push
+          else
+            echo "لا يوجد تغييرات لرفعها"
+          fi
