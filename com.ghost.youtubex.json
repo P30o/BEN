@@ -1,0 +1,90 @@
+{
+  "name": "YouTube X Premium",
+  "identifier": "com.ghost.youtubex",
+  "version": "2.5.0",
+  "price": "مجاني",
+  "badge": "NEW",
+  "tintColor": "#FF0000",
+  "icon": "https://ghostrepo.com/icons/youtubex.png",
+  "banner": "https://ghostrepo.com/banners/youtubex-banner.jpg",
+  
+  "developer": {
+    "name": "PoomSmart",
+    "avatar": "https://ghostrepo.com/avatars/poomsmart.jpg",
+    "contact": {
+      "twitter": "@PoomSmart",
+      "email": "support@ghostrepo.com"
+    }
+  },
+
+  "description": {
+    "short": "حزمة متكاملة لحظر الإعلانات والتشغيل الخلفي لـ YouTube",
+    "full": "YouTube X تقدم تجربة يوتيوب مميزة بدون إعلانات مزعجة مع ميزة التشغيل الخلفي. الحزمة تعمل على أحدث إصدارات يوتيوب وتوفر تجربة سلسة وخالية من الإعلانات."
+  },
+
+  "screenshots": [
+    {
+      "url": "https://ghostrepo.com/screenshots/youtubex/1.jpg",
+      "caption": "واجهة المستخدم الرئيسية"
+    },
+    {
+      "url": "https://ghostrepo.com/screenshots/youtubex/2.jpg",
+      "caption": "إعدادات التخصيص"
+    },
+    {
+      "url": "https://ghostrepo.com/screenshots/youtubex/3.jpg",
+      "caption": "ميزة التشغيل الخلفي"
+    }
+  ],
+
+  "features": [
+    "حظر جميع إعلانات يوتيوب",
+    "التشغيل الخلفي (Background Playback)",
+    "دعم Picture-in-Picture",
+    "إزالة القيود الإقليمية",
+    "واجهة مستخدم مخصصة",
+    "دعم 4K و HDR"
+  ],
+
+  "compatibility": {
+    "ios": "14.0-16.5",
+    "youtube": "17.0+",
+    "arch": ["arm64", "arm64e"]
+  },
+
+  "changelog": [
+    {
+      "version": "2.5.0",
+      "date": "2023-06-15",
+      "changes": [
+        "إضافة دعم يوتيوب 17.49.3",
+        "تحسين أداء حظر الإعلانات",
+        "إصلاح مشكلة التشغيل الخلفي",
+        "إضافة خيارات تخصيص جديدة"
+      ]
+    },
+    {
+      "version": "2.4.2",
+      "date": "2023-05-20",
+      "changes": [
+        "إصلاح مشكلات الاستقرار",
+        "تحسين التوافق مع iOS 16"
+      ]
+    }
+  ],
+
+  "dependencies": ["mobilesubstrate"],
+  "conflicts": ["com.google.ads"],
+
+  "links": {
+    "video": "https://youtube.com/watch?v=ghostrepo-youtubex",
+    "faq": "https://ghostrepo.com/faq/youtubex",
+    "guide": "https://ghostrepo.com/guides/youtubex"
+  },
+
+  "stats": {
+    "downloads": "1.2M+",
+    "rating": "4.9/5",
+    "updated": "2023-06-15"
+  }
+}
