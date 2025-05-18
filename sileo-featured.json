@@ -1,16 +1,37 @@
 {
   "class": "FeaturedBannersView",
   "itemSize": {
-    "width": 380,
-    "height": 180
+    "width": 400,
+    "height": 200
   },
-  "itemCornerRadius": 10,
+  "itemCornerRadius": 20,
   "banners": [
     {
       "title": "FridaCodeManager",
       "package": "com.sparklechan.swifty",
-      "url": "https://e.top4top.io/p_321170duk0.png",
-      "hideShadow": false
+      "url": "https://i.imgur.com/abc123.png",
+      "hideShadow": false,
+      "description": "🛠️ أداة متقدمة لتعديل الأكواد البرمجية بشكل ديناميكي!",
+      "callToAction": "تثبيت الآن",
+      "ribbonText": "جديد!",
+      "gradientColors": ["#6e48aa", "#9d50bb"]
+    },
+    {
+      "title": "PhantomX Pro",
+      "package": "com.ghost.phantomx",
+      "url": "https://i.imgur.com/xyz456.png",
+      "hideShadow": false,
+      "description": "👻 أداة الأمان الشبحية لحماية خصوصيتك!",
+      "callToAction": "اكتشف المزيد",
+      "ribbonText": "حصري",
+      "gradientColors": ["#1a1a1a", "#434343"]
     }
-  ]
+  ],
+  "footer": {
+    "text": "GhostRepo Elite - المصدر الأسطوري",
+    "textColor": "#FFFFFF",
+    "backgroundColor": "#000000",
+    "buttonText": "زيارة الموقع",
+    "buttonURL": "https://ghostrepo.com"
+  }
 }

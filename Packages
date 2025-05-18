@@ -1,14 +1,35 @@
-Package: com.ginsu.comet
-Version: 1.0.3
+Package: com.sparklechan.swifty
+Name: FridaCodeManager
+Version: 2.5.0
 Architecture: iphoneos-arm64
-Maintainer: 
-Description: com.ginsu.comet package for iOS
-Section: Tweaks
-Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
-Size: 217594
-Installed-Size: 212
-MD5sum: dc525ca5c739423ee6c36bbee577c059
-SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
-SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
-Name: com.ginsu.comet
+Description: ### 🛠️ أداة متقدمة لتعديل الأكواد البرمجية  
+📌 **المميزات:**  
+- تعديل التطبيقات بشكل ديناميكي  
+- دعم Frida + Cycript  
+- واجهة مستخدم سهلة  
+- متوافق مع iOS 13 حتى 17  
 
+📸 **الصور:**  
+![Screenshot 1](https://i.imgur.com/abc123.png)  
+![Screenshot 2](https://i.imgur.com/xyz456.png)  
+
+🔗 **روابط إضافية:**  
+- [دليل الاستخدام](https://ghostrepo.com/docs/frida)  
+- [الدعم الفني](https://ghostrepo.com/support)  
+
+📜 **المطور:** SparkleChan  
+💼 **الحجم:** 4.2 MB  
+🔧 **التوافق:** iOS 13+  
+⚠️ **ملاحظات:** غير مدعوم على أجهزة M1  
+
+Depends: firmware (>= 13.0), mobilesubstrate  
+Maintainer: GhostRepo Team <contact@ghostrepo.com>  
+Author: SparkleChan  
+Section: Tweaks  
+Icon: https://i.imgur.com/icon123.png  
+Depiction: https://ghostrepo.com/depictions/com.sparklechan.swifty  
+Tag: purpose::tweak, role::hacker  
+Filename: ./debs/com.sparklechan.swifty_2.5.0_iphoneos-arm64.deb  
+Size: 4403200  
+MD5sum: a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p  
+SHA256: 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f  

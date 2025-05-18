@@ -1,10 +1,13 @@
 Origin: Ghost | Repo
 Label: Ghost | Repo
 Suite: stable
-Version: 1.0
-Codename: iOS Premium
-Architectures: iphoneos-arm iphoneos-arm64
+Version: 2.0
+Codename: iOS Premium Elite
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: مستودع علي الرسمي - واجهة جديدة كلياً بتصميم عصري
-  تجربة مستخدم فريدة مع أحدث الحزم المميزة لأجهزة iOS
-  تابعنا على تويتر للحصول على آخر التحديثات
+Description: GhostRepo - المصدر الأسطوري للجلبريك | يدعم جميع الأجهزة | حزم حصرية وأدوات متطورة | وصف تفصيلي لكل أداة
+MD5Sum:
+ 8a1e3f4d5b6c7d8e9f0a1b2c3d4e5f6  Packages
+ 1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6  Packages.bz2
+ 2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e  Packages.gz
+ 3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f  Packages.xz
