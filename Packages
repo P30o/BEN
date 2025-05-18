@@ -1,44 +1,14 @@
-Package: com.ghost.youtubex
-Version: 2.5.0
-Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-Maintainer: Ghost Team <team@ghostrepo.elite>
-Depends: firmware (>= 14.0), mobilesubstrate
-Conflicts: com.google.youtubeads, com.adblockplus.youtube
-Replaces: com.old.youtubex
+Package: ws.hbang.alderis
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: 
+Description: ws.hbang.alderis package for iOS
 Section: Tweaks
-Priority: optional
-Homepage: https://ghostrepo.elite/youtubex
-Description: YouTube X Premium - حظر إعلانات وتشغيل خلفي ليوتيوب
-Icon: https://ghostrepo.elite/icons/youtubex.png
-Depiction: https://ghostrepo.elite/depictions/com.ghost.youtubex.html
-SileoDepiction: https://ghostrepo.elite/sileodepictions/com.ghost.youtubex.json
-Author: PoomSmart <support@ghostrepo.elite>
-Name: YouTube X Premium
-Tag: cydia::free, cydia::ios15, cydia::ios16
-Filename: ./debs/com.ghost.youtubex_2.5.0_iphoneos-arm.deb
-Size: 3568942
-MD5sum: 8a1e3f4d5b6c7d8e9f0a1b2c3d4e5f6
-SHA1: 1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0
-SHA256: 2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2
+Filename: ./debs/ws.hbang.alderis_1.2.1_iphoneos-arm64.deb
+Size: 215606
+Installed-Size: 210
+MD5sum: e30da9376adbdd8a846c168f0eca2a5b
+SHA1: 8120b1df4743a497416059509dd05d2c71ddb68c
+SHA256: e4913436592798c5dc78a972535d3dd22eb470f61d7d25ab6bf656c81a49853b
+Name: ws.hbang.alderis
 
-Package: com.ghost.phantomtweaks
-Version: 1.8.3
-Architecture: iphoneos-arm64 iphoneos-arm64e
-Maintainer: Ghost Team <team@ghostrepo.elite>
-Depends: firmware (>= 15.0), preferenceloader
-Conflicts: com.other.tweaks
-Section: Tweaks
-Priority: optional
-Homepage: https://ghostrepo.elite/phantomtweaks
-Description: Phantom Tweaks - مجموعة تعديلات شبحية متقدمة
-Icon: https://ghostrepo.elite/icons/phantomtweaks.png
-Depiction: https://ghostrepo.elite/depictions/com.ghost.phantomtweaks.html
-SileoDepiction: https://ghostrepo.elite/sileodepictions/com.ghost.phantomtweaks.json
-Author: Ghost Developer <dev@ghostrepo.elite>
-Name: Phantom Tweaks Pro
-Tag: cydia::paid, cydia::ios15, cydia::ios16
-Filename: ./debs/com.ghost.phantomtweaks_1.8.3_iphoneos-arm64.deb
-Size: 4587123
-MD5sum: 9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4
-SHA1: 2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1
-SHA256: 3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3
