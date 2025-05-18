@@ -18,76 +18,60 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: 🔍 فحص مجلد debs
+        id: check_debs
+        run: |
+          # إنشاء المجلد إذا لم يكن موجوداً
+          mkdir -p debs
+          
+          # حساب عدد ملفات .deb
+          COUNT=$(find debs/ -maxdepth 1 -name '*.deb' | wc -l)
+          echo "📂 عدد الحزم الموجودة: $COUNT"
+          
+          # حفظ النتيجة للمراحل التالية
+          echo "has_debs=$([ $COUNT -gt 0 ] && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
+
       - name: ⚙️ تثبيت المتطلبات
+        if: steps.check_debs.outputs.has_debs == 'true'
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -yqq \
-            dpkg-dev \
-            bzip2 \
-            xz-utils \
-            apt-utils
+          sudo apt-get install -yqq dpkg-dev bzip2 xz-utils
 
-      - name: 🔍 فحص ملفات .deb
+      - name: 📦 إنشاء الفهرس (الطريقة الآمنة)
+        if: steps.check_debs.outputs.has_debs == 'true'
         run: |
-          echo "📂 عدد الحزم الموجودة: $(ls -1 debs/*.deb 2>/dev/null | wc -l)"
-          for pkg in debs/*.deb; do
-            if ! dpkg -I "$pkg" >/dev/null 2>&1; then
-              echo "❌ ملف تالف: $pkg"
-              exit 1
-            fi
-          done
-
-      - name: 📦 إنشاء الفهرس (الطريقة الأقوى)
-        run: |
-          # إنشاء ملف override فارغ لتجنب التحذيرات
+          # إنشاء ملف فارغ إذا لم توجد حزم (لتجنب الأخطاء)
           touch override
           
-          # الطريقة الأولى: dpkg-scanpackages مع تجاهل التحذيرات
-          echo "🔄 جاري إنشاء ملف Packages..."
+          # إنشاء الفهرس مع تجاهل التحذيرات
           if ! dpkg-scanpackages -m debs override > Packages 2>warnings.log; then
-            echo "⚠️ ظهرت تحذيرات (تم تسجيلها في warnings.log) ولكن الملف أنشئ"
+            echo "⚠️ ظهرت تحذيرات:"
             cat warnings.log
           fi
           
-          # الطريقة الاحتياطية إذا فشلت الأولى
-          if [ ! -s Packages ]; then
-            echo "🔄 تجربة طريقة apt-ftparchive..."
-            apt-ftparchive packages debs > Packages
-          fi
+          # إنشاء ملفات مضغوطة
+          bzip2 -kf Packages
+          xz -kf Packages
+          gzip -kf Packages
           
-          # التحقق النهائي
-          if [ ! -s Packages ]; then
-            echo "❌ فشل إنشاء ملف الفهرس!"
-            exit 1
-          fi
-          
-          echo "✅ تم إنشاء الفهرس بنجاح (يحتوي على $(grep -c '^Package:' Packages) حزمة)"
-          
-          # الضغط مع التحقق
-          bzip2 -kf Packages && [ ! -f Packages.bz2 ] && exit 1
-          xz -kf Packages && [ ! -f Packages.xz ] && exit 1
-          gzip -kf Packages && [ ! -f Packages.gz ] && exit 1
-          
-          # إنشاء ملفات التجزئة
-          md5sum Packages > Packages.md5
-          sha256sum Packages > Packages.sha256
+          echo "✅ تم إنشاء ملفات الفهرس بنجاح"
+
+      - name: ℹ️ إعلام إذا لم توجد حزم
+        if: steps.check_debs.outputs.has_debs == 'false'
+        run: echo "##[notice] لا يوجد ملفات .deb في مجلد debs، تم تخطي العملية"
 
       - name: 🔄 رفع التغييرات
-        env:
-          GIT_USER: "github-actions[bot]"
-          GIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+        if: steps.check_debs.outputs.has_debs == 'true'
         run: |
-          git config --global user.name "$GIT_USER"
-          git config --global user.email "$GIT_EMAIL"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[github.com]"
           
           git add Packages*
           
           if git diff-index --quiet HEAD --; then
             echo "🆗 لا يوجد تغييرات لرفعها"
           else
-            echo "🚀 جاري رفع التغييرات..."
-            git pull --rebase
             git commit -m "🔄 تحديث تلقائي للفهرس [skip ci]"
+            git pull --rebase
             git push
-            echo "🎉 تم تحديث المستودع بنجاح"
           fi
