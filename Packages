@@ -13,3 +13,21 @@ SHA256: e4913436592798c5dc78a972535d3dd22eb470f61d7d25ab6bf656c81a49853b
 Name: ws.hbang.alderis
 Header: https://raw.githubusercontent.com/P30o/BEN/main/headers/ws.hbang.alderis.png
 
+Package: com.ginsu.comet
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: جوست
+Description: com.ginsu.comet package for iOS
+Section: Tweaks
+Depends: جوست
+Filename: ./debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
+Size: 217594
+Installed-Size: 212
+MD5sum: dc525ca5c739423ee6c36bbee577c059
+SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
+SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
+Name: com.ginsu.comet
+Author: تجر
+Icon: https://raw.githubusercontent.com/P30o/BEN/main/icons/com.ginsu.comet.png
+Header: https://raw.githubusercontent.com/P30o/BEN/main/headers/com.ginsu.comet.png
+
