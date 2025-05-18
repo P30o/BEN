@@ -1,44 +1,16 @@
 {
   "class": "FeaturedBannersView",
-  "title": "الحزم المميزة",
   "itemSize": {
-    "width": 400,
-    "height": 200
+    "width": 380,
+    "height": 180
   },
-  "itemCornerRadius": 15,
+  "itemCornerRadius": 10,
   "banners": [
     {
-      "title": "YouTube X Premium",
-      "package": "com.ghost.youtubex",
-      "url": "https://ghostrepo.elite/banners/youtubex-banner.jpg",
-      "hideShadow": false,
-      "tintColor": "#FF0000",
-      "description": "حظر إعلانات وتشغيل خلفي ليوتيوب",
-      "badge": "جديد"
-    },
-    {
-      "title": "Phantom Tweaks Pro",
-      "package": "com.ghost.phantomtweaks",
-      "url": "https://ghostrepo.elite/banners/phantomtweaks-banner.jpg",
-      "hideShadow": false,
-      "tintColor": "#00AAFF",
-      "description": "مجموعة تعديلات شبحية متقدمة",
-      "badge": "مميز"
-    },
-    {
-      "title": "Ghost Launcher",
-      "package": "com.ghost.launcher",
-      "url": "https://ghostrepo.elite/banners/launcher-banner.jpg",
-      "hideShadow": false,
-      "tintColor": "#8A2BE2",
-      "description": "شاشة بدء قابلة للتخصيص بالكامل",
-      "badge": "حصري"
+      "title": "FridaCodeManager",
+      "package": "com.sparklechan.swifty",
+      "url": "https://e.top4top.io/p_321170duk0.png",
+      "hideShadow": false
     }
-  ],
-  "footer": {
-    "text": "GhostRepo Elite - النظام الأسطوري للجلبريك",
-    "textColor": "#FFFFFF",
-    "backgroundColor": "#1A1A1A",
-    "icon": "https://ghostrepo.elite/assets/logo-small.png"
-  }
+  ]
 }
