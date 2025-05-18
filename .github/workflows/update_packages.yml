@@ -1,4 +1,4 @@
-name: 🛡️ تحديث آمن تلقائي بالكامل
+name: 🛠️ تحديث مستودع الحزم (الإصدار النهائي)
 
 on:
   push:
@@ -10,39 +10,70 @@ jobs:
   update_repo:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # صلاحيات الكتابة التلقائية
+      contents: write
 
     steps:
-      # الخطوة 1: التحقق من المستودع (باستخدام التوكن التلقائي)
-      - name: ⬇️ تحميل الكود تلقائيًا
+      - name: ⬇️ تحميل المستودع
         uses: actions/checkout@v4
         with:
-          # لا حاجة لتحديد التوكن هنا، سيستخدم GITHUB_TOKEN تلقائيًا
           fetch-depth: 0
 
-      # الخطوة 2: إعداد البيئة
-      - name: ⚙️ التثبيت التلقائي
+      - name: ⚙️ تثبيت المتطلبات
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -yqq dpkg-dev bzip2 xz-utils
+          sudo apt-get install -yqq \
+            dpkg-dev \
+            bzip2 \
+            xz-utils \
+            apt-utils
 
-      # الخطوة 3: إنشاء الملفات
-      - name: 📦 إنشاء الفهرس التلقائي
+      - name: 🔍 فحص ملفات .deb
         run: |
-          # إنشاء ملف Packages مع التحقق من الأخطاء
-          if ! dpkg-scanpackages -m debs /dev/null > Packages; then
-            echo "❌ فشل إنشاء ملف Packages"
+          echo "📂 عدد الحزم الموجودة: $(ls -1 debs/*.deb 2>/dev/null | wc -l)"
+          for pkg in debs/*.deb; do
+            if ! dpkg -I "$pkg" >/dev/null 2>&1; then
+              echo "❌ ملف تالف: $pkg"
+              exit 1
+            fi
+          done
+
+      - name: 📦 إنشاء الفهرس (الطريقة الأقوى)
+        run: |
+          # إنشاء ملف override فارغ لتجنب التحذيرات
+          touch override
+          
+          # الطريقة الأولى: dpkg-scanpackages مع تجاهل التحذيرات
+          echo "🔄 جاري إنشاء ملف Packages..."
+          if ! dpkg-scanpackages -m debs override > Packages 2>warnings.log; then
+            echo "⚠️ ظهرت تحذيرات (تم تسجيلها في warnings.log) ولكن الملف أنشئ"
+            cat warnings.log
+          fi
+          
+          # الطريقة الاحتياطية إذا فشلت الأولى
+          if [ ! -s Packages ]; then
+            echo "🔄 تجربة طريقة apt-ftparchive..."
+            apt-ftparchive packages debs > Packages
+          fi
+          
+          # التحقق النهائي
+          if [ ! -s Packages ]; then
+            echo "❌ فشل إنشاء ملف الفهرس!"
             exit 1
           fi
-
+          
+          echo "✅ تم إنشاء الفهرس بنجاح (يحتوي على $(grep -c '^Package:' Packages) حزمة)"
+          
           # الضغط مع التحقق
           bzip2 -kf Packages && [ ! -f Packages.bz2 ] && exit 1
           xz -kf Packages && [ ! -f Packages.xz ] && exit 1
+          gzip -kf Packages && [ ! -f Packages.gz ] && exit 1
+          
+          # إنشاء ملفات التجزئة
+          md5sum Packages > Packages.md5
+          sha256sum Packages > Packages.sha256
 
-      # الخطوة 4: الرفع التلقائي الآمن
       - name: 🔄 رفع التغييرات
         env:
-          # استخدام المتغيرات التلقائية من GitHub
           GIT_USER: "github-actions[bot]"
           GIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
         run: |
@@ -51,11 +82,12 @@ jobs:
           
           git add Packages*
           
-          if ! git diff-index --quiet HEAD --; then
-            git commit -m "🔄 تحديث تلقائي [skip ci]"
-            git pull --rebase
-            git push
-            echo "✅ تم التحديث بنجاح"
-          else
+          if git diff-index --quiet HEAD --; then
             echo "🆗 لا يوجد تغييرات لرفعها"
+          else
+            echo "🚀 جاري رفع التغييرات..."
+            git pull --rebase
+            git commit -m "🔄 تحديث تلقائي للفهرس [skip ci]"
+            git push
+            echo "🎉 تم تحديث المستودع بنجاح"
           fi
