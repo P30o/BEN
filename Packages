@@ -12,19 +12,24 @@ SHA1: 8120b1df4743a497416059509dd05d2c71ddb68c
 SHA256: e4913436592798c5dc78a972535d3dd22eb470f61d7d25ab6bf656c81a49853b
 Name: ws.hbang.alderis
 
-Package: com.brend0n.nopastedfrom
-Version: 0.0.1
+Package: com.ginsu.comet
+Version: 1.0.3
 Architecture: iphoneos-arm64
-Maintainer: 
-Description: com.brend0n.nopastedfrom package for iOS
+Maintainer: Ginsu <njl02@outlook.com>
+Installed-Size: 2282
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/com.ginsu.comet_1.0.3_iphoneos-arm64.deb
+Size: 217594
+MD5sum: dc525ca5c739423ee6c36bbee577c059
+SHA1: 6c9adb81131b16de0d534ea7dc94f0f1d14b5a25
+SHA256: d7fa714ab5ddeb0f89ecf51498a180973e159bbb443d6343cbacef6458aeede4
 Section: Tweaks
-Filename: ./debs/com.brend0n.nopastedfrom_0.0.1_iphoneos-arm64.deb
-Size: 3002
-Installed-Size: 2
-MD5sum: ceee5dbec91db31e6faa02349e58cb96
-SHA1: 29494b592ddea0590beefdd5f7fb4f409aaabd33
-SHA256: d11c182e66c1365d88b245daed0fa12145619e7c3de0c4f32f6018dfd6eeb2d1
-Name: com.brend0n.nopastedfrom
+Description: A SwiftUI Prefs Framework
+Tag: compatible_min::ios14.0
+Author: Ginsu <njl02@outlook.com>
+Depiction: https://chariz.com/get/comet
+Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
+Name: Comet
 
 Package: com.ginsu.comet
 Version: 1.0.3
